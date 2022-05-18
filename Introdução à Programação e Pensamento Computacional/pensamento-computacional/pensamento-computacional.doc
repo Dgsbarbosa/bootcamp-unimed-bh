@@ -1,0 +1,102 @@
+﻿Bootcamp Dio Unimed/BH
+
+Pensamento Computacional
+
+4 pilares:
+
+- Decomposição: decompõe o problema em partes menores;
+
+- Reconhecimento de padrões: identificar padrões e tendencias, similaridades e diferença entre problemas.
+
+- Abstração: extrapolaar o conceito do problema para uma forma generalista
+
+- Design de algoritimo: automatizar, definir passo a passo a solução de problemas
+
+Algoritimo: Input -> Operator -> Output
+
+
+É um processo continuo, deve-se sempre estar refinando:
+
+1. definir uma solução
+2. testar solução
+3. aperfeiçoamento
+
+
+- Habilidades a serem desenvolvida:
+
+    1. Raciocinio logico: é uma forma de pensamento estruturado, que permite encontrar a conclusao ou determinar a solucao de problemas
+
+        Classificação:
+            Indução
+            Dedução
+            Abdução
+
+
+    2. Aperfeiçoamento: ato de refinar, aperfeiçoar, melhorar.
+
+Pilares
+
+1º Decomposição
+
+    Diante de um problema complexo podemos quebra-lo em parte menores e gerenciaveis, depois combina os elementos recompondo o problema original
+
+    - Ordem de execução de tarefas: Sequencial ou Paralelo
+
+    Como decompor: Identifica ou coleta dados, Agregar Dados, Funcionalidade
+
+    Fazemos a definição de componente e etapas
+
+2º Reconhecimento de padrões
+    
+    - Modelo Base
+    - Estrutura
+    - Repetição
+
+3º Abstração/ Generalização
+
+    Abstração: Processo de isolamento de um objeto da realidade
+
+    Generalizar:  tornar mais amplo
+
+    Como classificar dados:
+        - caracteristicas
+        - pontos essenciais
+        - generalizar x detalhar
+
+4º Algoritimos 
+
+    Intruoes executadas passo a passo para concluir a tarefa.
+     "Step by step"
+
+    O computador recebe, manipula e armazena dados.
+
+    
+
+    Desenvolvimento do Programa
+
+        - Analise: estudo e definiçoes dos dados de entrada e saida
+
+        - Algotitimo: descreve o programa por meio ferramentas narrativas, fluxograma ou pseudocodigo
+
+        - Codificação: algoritimo codificado com a linguagem de programação escolhida
+
+    Como construir um algoritimo
+
+        - Compreenção do problema
+        - Definição de dados de entrada
+        - Definir processamento
+        - Utilizar metodo de construção
+        - Teste e diagnóstico
+
+    Construção do código
+
+        - Narrativa: utilização da linguagem natural, diversa interpretações
+
+        - Fluxograma: utilização de simbolos pré definidos, estrutura grafica;
+
+        - Pseudocodigo: Portugol, regras bem definidas, passos a serem seguidos;
+
+    
+   
+
+

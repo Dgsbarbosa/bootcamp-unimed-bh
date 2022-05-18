@@ -1,0 +1,39 @@
+Lógica
+
+    O que é logica?
+
+        Forma de desencadeiar acontecimentos; é a organização e planejamento das instruçoes, assertivas;
+        
+
+Técnicas de logica de programação
+
+    Tecnica Linear
+        - Modelo tradicional
+        - Nao tem vinculo
+
+        É em execução sequnciada, recursos limitados, unica dimensão
+
+    Tecnica Estruturada
+        Organização,  disposição e ordem dos elementos essenciais que compoe um corpo (concreto ou abstrato)
+        
+        - escrita
+        - entendimento
+        - validação
+        - manutençao
+
+    Tecnica Modular
+
+        Partes independentes controlada por um conjunto de regras
+
+        Dados de entrada -> Processamento de transformação -> Dados de saida
+
+        - Simplificação
+        - Decomposição
+        -Verificação por modulo
+
+        
+
+
+
+
+
