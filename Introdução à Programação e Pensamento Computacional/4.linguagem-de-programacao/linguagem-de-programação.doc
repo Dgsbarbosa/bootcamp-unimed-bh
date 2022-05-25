@@ -1,0 +1,106 @@
+Introdução à linguagens de programação
+
+    Lingugem de programação: metodo padronizado composto por um conjunto de regras sintaticas e semanticas de implementação de um codigo fonte que pode ser traduzido ou interpretado
+
+    - 1949: surge a primeira linguagem o Asssembly (Linguagem de montagem de maquina);   
+    - Anos 50: Cobol, Fortran, Lisp;
+    - anos 60 e 70 (Paradigmas): ML (Machine Learn), C, Prolog; 
+    - anos 90 (Alto Nivel): Javascript, Java, Rubvy, Pyton, C# ;  
+    - anos 2000: Typescripte, GO, Swift;
+
+    Problemas Computacionais
+
+        Problemas de decisão
+            Carater logico: sim ou nao
+        
+        Problemas de busca
+            Relacionamento binario
+
+        Problemas de Otimixização
+            Maximizar ou minimizar uma ação
+
+
+Como um computador entende o programa?
+
+    Existe um processesso de tradução (compilação)
+        linguagem->compilador->linguagem de maquina
+            ^                           ^  
+        programa de alto nivel e de baixo nivel
+
+    Linguagem Traduzida: C++ Java
+        - Execução mais rapida
+        - Programas menores
+        1 Geração de programa objeto
+        2 Execução de programa objeto
+
+    Linguagem Interpretada: Javascript, Pyton, Ruby
+        - Maior flexibilidade
+        - programa fonte executad diretamente
+        - mais lento
+        - 
+Características de um programa
+
+    Diretrises
+        - legibilidade: estado que é legivel, coerente nas instruçoes
+        - regibilidade: facilidade na escrita de codigo
+        - confiabilidade: faz o que foi programado pra fazer
+        - custo: analise de impacto
+
+Análises de código
+
+    - analise lexica: scanner
+        Particiona -> Classifica -> Eliminar
+
+    - analise sintatica
+        Componente do sistema linguistico que interligam os constituintes da sentença, atribuindo-lhe uma estrutura
+        Padrao-gramatica depende da linguagem
+
+    - analise semanticas
+        Estudo do significados, incide sobre a relaçao entre siginificante, como palavras, frase, sinais e simbolos
+
+    
+Paradigmas de programação
+
+    Forma de resolucao de problemas com diretrizes e limitaçoes especificas de cada Paradigma utilizando linguagem de programação.
+
+    Classificação
+
+        orientação a objeto
+            baseado na utilizacao de objeto e suas interações, 
+            um objeto é descrito por Características especificas, comportamento e estado
+            - atributos
+            - metodos
+            - estados
+
+            Pilares
+                Herança 
+                encapssulamento
+                polimorfismo
+                abstração
+                
+        procedural
+
+        funcional
+
+        estruturado: linguagem C
+            conceitos
+                sequencia
+                decisao
+                iteracao
+
+        computacao distribuida
+
+        logico
+
+    
+
+
+
+
+
+
+
+
+
+
+
