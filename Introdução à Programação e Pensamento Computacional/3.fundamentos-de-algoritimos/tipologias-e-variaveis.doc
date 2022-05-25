@@ -1,0 +1,85 @@
+Variaveis
+
+    É mutavel, possui variacoes, inconstante, incerto, instavel
+    Dados e Instruções que são tratadas e processadas. As variaveis podem ser:
+
+        - Numericos: Inteiros e Reais
+        - Caracteres: Tudo aquilo que nao é representadado por um numero 
+        - Logicos: Verdadeiro 1, Falso 0 , booleano
+
+     A variavel identifica um determinado dado e o tipo dele
+
+     Nome de variaveis:
+        - um ou mais Caracteres
+        - sewm espeços
+        - nao pode palavras reservadas
+        
+    Papel da variavel   
+        - Acao: modificação de estado
+        - Controle; vigia e controla
+
+    Constante:
+        - Nao muda
+        - Inalteravel
+
+Instruções Primitivas
+
+    Operadores: binario, unario
+
+    Entrada -> Processamento -> Saida
+
+Estruturas Condicionais e Operadores
+
+    Condicao -> Operação
+
+       - Simples
+       - Composta
+       - Encadeada
+
+Operadores Logicos
+    - and
+    - or
+    - not: inversao do resultado logico
+
+Estruturas de repetição
+
+    Sinonimos
+    - laços
+    - controle de fluxo
+    - malhas de repetição
+    - repetição
+    - loops
+
+Vetores e matrizes
+
+   - Inteiros
+   - Reais
+
+    	
+    É caracterizado por uma variavel dimensionada com tamanho pré-fixado
+
+        Matriz: é uma tabela organizada em linhas e colunas no formato m x n, onde m representa 
+    o numero de linhas (horizontal) e n o numero de colunas(vertical)
+
+ O que são funções (sub-rotina)?
+        É similar ao conceito matematico, são blocos de Instruçõesque realizam tarefas especificas, identificados pelo nome e parametros.
+
+        - definição
+        - nome
+        - invocação
+        - variavel local
+
+        Vantagens: reutilazação de codigo
+  
+Instruções de entrada/saída
+
+    Entrada
+        Consiste na insercao e recebimento de dados do mundo real por meio de açao de alguma interface, seja teclado, mouse, arquivos, entre outros.
+
+    Saida
+        Consiste na impressao dos dados do mundo abstrato , digital por mei de acao de alguma interface
+        Os formatos podem variar desde simples arquivos binarios ate complexas querys de banco de dados, temos dois tipos:
+        
+            - Saida programada: pode ser condicional ou nao
+            - Saida por interrupcao: definida por perifericos
+
