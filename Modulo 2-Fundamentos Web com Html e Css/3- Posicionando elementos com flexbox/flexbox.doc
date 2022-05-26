@@ -1,0 +1,151 @@
+Introdução
+
+Flexbox, foi projetado como um modelo unidimendicional e como metodo que pode oferecer distribuição de espaço entre itens em uma interface e recursos de alinhamento
+
+Flex Container  
+    tag que envolve os itens, nela aplicamos o 'display:flex', transformando os itens  filhos em flex itens
+
+    Propriedade relacionadas
+        
+        - display:
+
+        - flex-direcition
+
+        - flex-wrap
+
+        -flex-flow
+
+        - justify-content
+
+        - align-items
+
+        -align-content
+
+        Flex items
+            Sao elementos filhos diretos do flex Container e tambem podem se tornar Flex Container
+
+            Propriedade relacionadas
+        
+                - flex-grow:
+
+                - flex-basis:
+
+                - flex-shrink
+
+                -flex
+
+                - order:
+
+                - align-self:
+
+    
+Fundamentos do Flexbox - Parte 1
+
+    Estrutura básica do display:flex
+
+        Flex-Container
+
+            display-flex: torna a tag um elemento do tipo flex Container
+
+        Prática com display:flex
+
+            0-display-flex.html
+
+
+
+    Estrutura básica do flex direction
+
+    Eixos 
+        - row(padrao) : a direcao do texto, esquerda para direita
+
+        - row reverse: sentido oposto da direção
+
+        - column: ordenação de cima para baixo, em coluna unica
+
+        - column-reverse: ordenação invesa
+
+
+    Prática com flex direction
+
+        1-flex-direction.html
+
+
+    Estrutura básica do flex wrap
+
+        Define se os itens devem ou nao quebrar a linha
+
+            - nowrap: é o padrao, nao permite quebra de linha
+
+            - wrap: permite quebra de lina assim que um dos flex itens nao puder mais ser compactado
+
+            - wrap-reverse: wrap na direção contraria
+
+    Prática com flex wrap
+
+        2-flex-wrap.html
+
+
+
+
+
+     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
