@@ -9,11 +9,16 @@
         h1{
             margin-top: 50px;
         }
+        .metodo-row{
+            float: left;
+        }
         .flex-container{
             display: flex;
             height: 150px;
+            flex-direction: row;
             border:  2px solid black;
             width: 300px;
+            
         }
         .item{
             font-size: 24px;
@@ -21,9 +26,11 @@
             text-align: center;
             min-width: 100px;
             line-height: 50px;
+            
         }
         .nowrap{
             flex-wrap: nowrap;
+            
         }
         .wrap{
             flex-wrap: wrap;
@@ -45,18 +52,39 @@
             flex-wrap: wrap-reverse;
         }
 
+        /*Style column*/
+        .teste-column{
+            float: right;
+            
+            
+        }
+        .flex-container1{
+            display: flex;
+            height: 150px;
+            flex-direction: column;
+            border:  2px solid black;
+            width: 300px;
+            
+        }
+
         
 
     </style>
 </head>
 <body>
+    <div class="metodo-row">
+    <h1>METODO COM ROW</h1>
+    
     
     <h1>Sem wrap</h1>
+    
     <div class="flex-container">
+        
         <div class="item blue">1</div>
         <div class="item green">2</div>
         <div class="item orange">3</div>
         <div class="item red">4</div>
+        
         
     </div>
 
@@ -67,6 +95,7 @@
         <div class="item orange">3</div>
         <div class="item red">4</div>
         
+        
     </div>
 
     <h1>Com wrap-reverse</h1>
@@ -76,6 +105,39 @@
         <div class="item orange">3</div>
         <div class="item red">4</div>
         
+        </div>
+</div>
+    <!--Fazendo testes com colmn-->
+
+    
+    <div class="teste-column">
+        <H1>METODO COM COLUMN</H1>
+        <h1>Sem wrap</h1>
+    <div class="flex-container1">
+        <div class="item blue">1</div>
+        <div class="item green">2</div>
+        <div class="item orange">3</div>
+        <div class="item red">4</div>
+        
+        
+    </div>
+
+    <h1>Com wrap</h1>
+    <div class="flex-container1 wrap">
+        <div class="item blue">1</div>
+        <div class="item green">2</div>
+        <div class="item orange">3</div>
+        <div class="item red">4</div>
+        
+        
+    </div>
+
+    <h1>Com wrap-reverse</h1>
+    <div class="flex-container1 wrap-reverse">
+        <div class="item blue">1</div>
+        <div class="item green">2</div>
+        <div class="item orange">3</div>
+        <div class="item red">4</div>
     </div>
 
 </body>

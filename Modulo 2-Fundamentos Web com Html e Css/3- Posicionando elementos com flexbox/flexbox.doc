@@ -84,6 +84,68 @@ Fundamentos do Flexbox - Parte 1
 
         2-flex-wrap.html
 
+    Estrutura básica e prática com flex flow
+
+        É um atalho para as propriedades flex-direction e flex-wrap
+
+            3-flex-flow.html
+
+    
+    Estrutura básica do justify content
+
+        Vai se encarregar de alinhar os itens dentro do container de acordo com a direção pretendida e tratar da distribuição de espaçamento entre eles.
+
+        -flex-start: inicio do container
+        -flex-end: final do container
+        -center: ao centro do container
+        -space-betwenn: cria um espaçamento igual entre os elementos
+        -space-around: os espaçamento do meio sao duas vezes maiores que o inicial e final
+
+Estrutura básica e prática com align items
+
+   Trata do alinhamento dos flex itens de acordo com eixo do container
+   O alinhamento é diferente para quando os item estao em colunas e linhas
+
+    Tipos
+
+    center: ao centro
+    stretch: padrao, os flex itens crescem igualmente
+    flex-start: alinhamento no inicio
+    flex-end: alinhamento no final
+    baseline: alinhamento de acordo com a linha base da tipografia dos itens
+
+     html numero 5
+
+Estrutura básica e prática com align content
+
+    6-align-content.html
+
+    Responsavel por tratar o alinhamento das linhas do container em relacao ao eixo vertical do container
+
+    Precisamos que 
+        - O container utiliza quebra de linhas
+        - A  altura do container seja maior que a soma das linhas dos itens.
+
+        Tipos
+
+        -center: ao centro
+        -stretch: padrao, os flex itens crescem igualmente
+        -flex-start: alinhamento no inicio
+        -flex-end: alinhamento no final
+        -space-betwenn: cria um espaçamento igual entre os elementos
+        -space-around: os espaçamento do meio sao duas vezes maiores que o inicial e final
+
+
+
+Flex-items
+
+Estrutura básica e prática com flex grow
+
+    Define a proporcionalidade de crescimento dos itens, respeitando o tamanho de seus conteudos internos
+        Obs. nao ira funcionar caso tenhamos adicionado justify-content ao nosso flex.
+
+        7-flex-grow.html        
+
 
 
 

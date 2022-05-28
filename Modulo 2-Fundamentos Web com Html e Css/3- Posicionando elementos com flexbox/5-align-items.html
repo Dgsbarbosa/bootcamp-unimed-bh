@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundamentos - align items</title>
+    <style>
+     .row-column{
+         border: 2px solid black;
+         margin-bottom: 20px;
+         background-color: aqua;
+     }   
+    .container{
+        max-width: 350px;
+        border: 1px solid black;
+        display: flex;
+    }
+
+    .item{
+        background-color: blueviolet;
+        margin: 5px;
+        color: white;
+        text-align: center;
+        flex: 1;
+    }
+
+    .center{
+        align-items: center;
+    }
+
+    .strecth{
+        align-items: stretch;
+    }
+
+    .flex-start{
+        align-items: flex-start;
+    }
+    .flex-end{
+        align-items: flex-end;
+    }
+
+    .base-align{
+        align-items: baseline;
+    }
+    .column{
+        flex-direction: column;
+    }
+    .central{
+        height: 300px;
+        justify-content: center;
+        align-items: center;
+    }
+    .central .item{
+        flex: 0;
+        padding: 20px;
+    }
+    </style>
+</head>
+<body>
+    <div class="row-column">
+    <h1>Row</h1>
+    <h1>Center</h1>
+    <section class="container center">
+        <div class="item">Item 1</div>
+        <div class="item">Lorem Ipsum dolor sit amet</div>
+        <div class="item">Item 3 mais texto</div>
+    </section>
+
+    
+
+
+    <h1>strecth</h1>
+    <section class="container strecth">
+        <div class="item">Item 1</div>
+        <div class="item">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </div>
+        <div class="item">Item 3 mais texto lipsum at asasa</div>
+        
+    </section>
+    <p>aumenta de acordo com o maior item</p>
+
+    <h1>flex-start</h1>
+    <section class="container flex-start">
+        <div class="item">Item 1</div>
+        <div class="item">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</div>
+        <div class="item">Item 3 mais texto lipsum at asasa</div>
+        
+    </section>
+    <p>alinha ao topo</p>
+
+    <h1>flex-end</h1>
+    <section class="container flex-end">
+        <div class="item">Item 1</div>
+        <div class="item">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</div>
+        <div class="item">Item 3 mais texto lipsum at asasa</div>
+        
+    </section>
+    <p>alinha ao bottom</p>
+
+    <h1>base-align</h1>
+    <section class="container base-align">
+        <div class="item"><br>Item 1</div>
+        <div class="item">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</div>
+        <div class="item">Item 3 mais texto lipsum at asasa</div>
+        
+    </section>
+
+</div>
+
+<!--Treinando nos eixos das colunas-->
+<div class="row-column">
+    <h1>Column</h1>
+    <h1>Center</h1>
+    <section class="container center column">
+        <div class="item">Item 1</div>
+        <div class="item">Lorem Ipsum dolor sit amet</div>
+        <div class="item">Item 3 mais texto</div>
+    </section>
+
+    
+    <h1>strecth</h1>
+    <section class="container strecth column">
+        <div class="item">Item 1</div>
+        <div class="item">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </div>
+        <div class="item">Item 3 mais texto lipsum at asasa</div>
+        
+    </section>
+    <p>aumenta de acordo com o maior item</p>
+
+    <h1>flex-start</h1>
+    <section class="container flex-start column">
+        <div class="item">Item 1</div>
+        <div class="item">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</div>
+        <div class="item">Item 3 mais texto lipsum at asasa</div>
+        
+    </section>
+    <p>alinha ao topo</p>
+
+    <h1>flex-end</h1>
+    <section class="container flex-end column">
+        <div class="item">Item 1</div>
+        <div class="item">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</div>
+        <div class="item">Item 3 mais texto lipsum at asasa</div>
+        
+    </section>
+    <p>alinha ao bottom</p>
+
+    <h1>base-align</h1>
+    <section class="container base-align column">
+        <div class="item"><br>Item 1</div>
+        <div class="item">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</div>
+        <div class="item">Item 3 mais texto lipsum at asasa</div>
+        
+    </section>
+
+</div>
+
+    <!-- Alinhamento Central-->
+    <h1>Alinhamento central a tela</h1>
+    <section class="row-column container central center ">
+    
+    <div class="item">
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+    </div>
+</section>
+
+    
+    
+</body>
+</html>
