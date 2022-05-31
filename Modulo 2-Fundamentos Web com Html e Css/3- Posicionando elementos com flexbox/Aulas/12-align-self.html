@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundamentos - align-self</title>
+    <style>
+        .container{ 
+            max-width:350px ;
+            height: 200px;
+            border: 1px solid black;
+            margin-bottom: 20px;
+            display: flex;
+            /*align-items: center;*/
+        }
+        .item{
+            background-color: brown;
+            color: white;
+            font-size: 24px;
+            text-align: center;
+            margin: 5px;
+        }
+        .center{
+            align-self: center;
+        }
+        .start{
+            align-self: flex-start;
+        }
+        .end{
+            align-self:flex-end;
+        }
+        .stretch{
+            align-self: stretch;
+        }
+        .baseline{
+            align-self: baseline;
+        }
+        .auto{
+            align-self: auto;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>align-self: auto</h1>
+    <section class="container">
+        <div class="item auto">AAA</div>
+        <div class="item auto">123</div>
+        <div class="item auto">Mais um dia de estudo. Deus me abençoes.</div>
+        <div class="item auto">Item 4</div>        
+    </section>
+
+    <h1>align-self: center</h1>
+    <section class="container">
+        <div class="item center">AAA</div>
+        <div class="item center">123</div>
+        <div class="item center">Mais um dia de estudo. Deus me abençoes.</div>
+        <div class="item center">Item 4</div>        
+    </section>
+
+    <h1>align-self: flex-start</h1>
+    <section class="container">
+        <div class="item start">AAA</div>
+        <div class="item start">123</div>
+        <div class="item start">Mais um dia de estudo. Deus me abençoes.</div>
+        <div class="item start">Item 4</div>        
+    </section>
+
+    <h1>align-self: flex-end</h1>
+    <section class="container">
+        <div class="item end">AAA</div>
+        <div class="item end">123</div>
+        <div class="item end">Mais um dia de estudo. Deus me abençoes.</div>
+        <div class="item end">Item 4</div>        
+    </section>
+
+    <h1>align-self: stretch</h1>
+    <section class="container">
+        <div class="item stretch">AAA</div>
+        <div class="item stretch">123</div>
+        <div class="item stretch">Mais um dia de estudo. Deus me abençoes.</div>
+        <div class="item stretch">Item 4</div>        
+    </section>
+
+    <h1>align-self: baseline</h1>
+    <section class="container">
+        <div class="item baseline">AAA</div>
+        <div class="item baseline">123</div>
+        <div class="item baseline">Mais um dia de estudo. Deus me abençoes.</div>
+        <div class="item baseline">Item 4</div>        
+    </section>
+    
+</body>
+</html>

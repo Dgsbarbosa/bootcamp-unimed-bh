@@ -147,13 +147,60 @@ Estrutura básica e prática com flex grow
         7-flex-grow.html        
 
 
+Estrutura básica do flex basis
+
+    Propriedade que estabelece o tamanho dos itens antes das distribuicoes de espaço restatante dentro dele, usando como base o conteudo interno disposto
+
+    Valores possiveis:
+
+        auto: caso o item nao tenha tamanho, este sera proporcional ao tamanho do item
 
 
+        px,%,em; ...: sao valores exatos previamente definido
 
-     
+        0(zero): tera relação com a definicao do flex-grow
+
+        8-flex-basis.html
+
+Estrutura básica do flex shrink
+
+    Propriedade que estabelece a capacidade de redução ou compressao do tamanho de um item
+
+    9-flex-shrink.html
 
 
+Estrutura básica e prática com flex
 
+     É um atalho ou abreviacao de escrita para as propriedades: grow, shrinke basis, nessa ordem
+
+        EXemplo
+        flex: 1, 2, 0;
+
+    10-flex.html
+
+Estrutura básica e prática com order
+
+    Ordena os itens
+
+    11.order.html
+
+
+Estrutura básica e prática com align self
+
+    Estabelece o alinhamento de modo individual sobre um determinado item
+
+    Valores possiveis
+        auto: valor padrao
+        flex-start: ao inicio do container
+        flex-end: al final do containercenter: ao centro
+        stretch: todo espaço relativo
+        baseline: linha do texto
+
+    12-align-self.html
+
+Projeto Itegrador
+
+    Apresentação e preparação do projeto
 
 
 
