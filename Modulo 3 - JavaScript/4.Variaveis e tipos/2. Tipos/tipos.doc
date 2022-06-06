@@ -1,0 +1,15 @@
+Estruturas
+
+Tipagem dinamica e fraca
+
+Temos os dados primitivos e nao primitivos
+
+ primitivos:
+    - strings
+    - numbers
+    - booleans
+
+nao primitivos
+
+    - array
+    - objetos

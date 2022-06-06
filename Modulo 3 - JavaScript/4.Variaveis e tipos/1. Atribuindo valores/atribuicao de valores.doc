@@ -1,0 +1,6 @@
+var:    ideal para escopo global
+let:    ideal para escopo de bloco
+const:  ideal para valor que nao pode ser alterado
+
+
+

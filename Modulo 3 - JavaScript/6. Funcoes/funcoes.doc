@@ -1,0 +1,30 @@
+estrutura
+
+function nome (parametros){
+    instruções
+    return (para a funcao)
+}
+
+funcao anonima
+
+const soma = function (a,b){
+    return a+b
+}
+soma(1,2) // 3
+soma(4,4) // 8
+
+
+funcao autoiniciavel
+
+uma funcao anonima entre parenteses, seguida por um par de parenteses, que representa sua chamada
+
+(
+    function(){
+        let name = "Digital Inovation One"
+        return name;
+    }
+)();
+
+callback
+
+Uma funcao passada como argumento para outra. Utilizando callbacks vc tem maior controle da ordem de chamadas

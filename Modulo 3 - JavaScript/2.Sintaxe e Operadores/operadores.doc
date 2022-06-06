@@ -1,0 +1,48 @@
+﻿Tipos
+
+Atribuicao
+
+    =   atribui um valor
+    +=  atriui junto com adição
+    -=  atriui junto com subtração
+    *=  atribui junto com multiplicação
+    /=  atriui junto com divisão
+    %=  modulo
+
+Aritimetica
+
+    +   adição
+    -   subtração
+    *   multiplicação
+    **  exponencial
+    /   divisão
+    %   modulo
+    ++  incrementar
+    --  decrementar
+
+Comparação
+
+    ==  igual à
+    === mesmo valor e mesmo tipo      
+    !=  diferente
+    !== valores e tipos diferentes
+    >   maior
+    <   menor
+    >=  maior ou igual
+    <=  menor ou igual
+
+Logica
+
+    &&  "e" Logico
+    ||  "ou" Logico
+    !   "não" Logico
+
+Condicional(ternario)
+
+    (condicao) ? expressao1 : expressao2
+
+    é a mesma coisa de fazer um if/else
+
+
+
+    
