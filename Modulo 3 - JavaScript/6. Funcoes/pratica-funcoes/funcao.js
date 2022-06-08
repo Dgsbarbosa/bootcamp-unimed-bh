@@ -35,3 +35,4 @@ function alunosAprovados(arr, media){
 
 
 console.log(alunosAprovados(alunos, 5));
+

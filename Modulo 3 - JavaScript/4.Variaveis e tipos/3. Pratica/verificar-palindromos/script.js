@@ -22,4 +22,12 @@ function verificaPalindromo2(string){
     return true;
 }
 
-console.log(verificaPalindromo2('aba'))
+console.log(verificaPalindromo2('aba\n'))
+
+let N = 13;
+for ( let i = 1; i < 100; i++) {
+
+//TODO: Complete os espaços em branco com uma possível solução para o desafio
+
+	if (i %  N==2) console.log( [i] );
+}
