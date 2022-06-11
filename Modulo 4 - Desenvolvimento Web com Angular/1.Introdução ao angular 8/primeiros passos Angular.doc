@@ -1,0 +1,14 @@
+Para instalar o Angular entre no terminal e digite
+
+    npm install -g @angular/cli
+
+ Para criar um aplicação
+    
+    Entre na pasta pelo terminal
+    digite ng new course-manager (onde course-manager é o nome)
+
+Carregando os componentes
+
+    na pasta criada digite  
+
+        ng serve
