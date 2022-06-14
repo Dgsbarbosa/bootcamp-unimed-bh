@@ -12,3 +12,54 @@ Carregando os componentes
     na pasta criada digite  
 
         ng serve
+
+Trabalhando com módulos e componentes
+
+  O angular é modular, sendo que cada módulo tem seus respectivos componentes
+
+  Interpolação
+
+    Exibe o valor no template usado com duas chaves. Ex.:
+
+    {{name}}
+
+Importar modulo 
+
+    em app module 
+
+    import{FormsMudule} from '@angular/forms'
+
+    em @NgMudules
+
+    imports: [
+    BrowserModule,
+    FormsModule,
+  ],
+
+Criando componentes e construindo o projeto
+
+    Na pasta aap foi criado a pagina courses
+
+    Nas nomenclaturas devemos coloca a classe 
+
+    Ex.:
+
+    app.component.ts
+    course-list.component.ts
+
+    Onde component é a classe 
+
+Instalando bootstrap
+
+    Usando node digite
+
+    npm install bootstrap
+
+    Depois procure em angular.json o style e veja a localizao do aqrquivo
+
+    no arquivo css colque @import'-' e no arquivo css do bootstrap(node_modules)
+
+
+
+
+    
