@@ -59,7 +59,31 @@ Instalando bootstrap
 
     no arquivo css colque @import'-' e no arquivo css do bootstrap(node_modules)
 
+OnInit
+
+Assim que o programa inicia ele chama um metodo hulk Usando
+
+ngOnInit(): void{
+
+}
+
+*ngFor=""
+
+Criando componentes com atributos interdependentes
+
+    Cria um componente de outro componente
+
+Mesclar atributos de uma tag com informação de um componente
+
+    Coloca-se [] para que o html entenda que é necessario pegar o valor daquele atributo
+
+    Ex.:
+    <img [src]="course.imageUrl" alt=""></td>
+
+OnChanges: (pesquisar)
+
+Lidando com varios componentes
+
+    O que é injeção de dependência
 
 
-
-    
