@@ -1,0 +1,61 @@
+<br><br><br><br>
+
+<h2>Course List</h2>
+<p>(Template feito fora do componente)</p>
+
+
+<!-- div class="form-group row" vai criar um filtro, para que ao escrever, seja filtrado a informação -->
+
+<p>	(div class="form-group row") vai criar um filtro, para que ao escrever para que seja filtrado a informação</p>
+
+<div class="form-group row">
+    <label class="col-sn-2 col-from-label">Filter By:</label>
+    <div class="col-sn-10">
+        <input [(ngModel)]="filter" class="form-control">
+        <!--criando o input filter em course-list.components-->
+    </div>
+
+</div>
+
+<br><br><br>
+
+<h2>Criando uma tabela (Usando o OnInit)</h2>
+
+
+<h3></h3>
+
+<table class="table table-striped">
+    <thead>
+        <!--Este é head da tabela -->
+        <tr>
+            <th>Image</th>
+            <th>Name</th>
+            <th>Price</th>
+            <th>Code</th>
+            <th>Release Date</th>
+            <th>Rating</th>
+            <th>Option</th>     
+        </tr>   
+    </thead>
+
+    <tbody>
+        <tr *ngFor= "let course of filteredCourses">
+            <td><img [src]="course.imageUrl" alt="" width="40" height="40"></td>
+            <td>{{course.name  | uppercase}}</td><!--colocando um pipe | uppercase-->
+            <td>{{course.price}}</td>
+            <td>{{course.code |lowercase |replace: '-':' ' }}</td><!--aninhando pipes e colocando um pipe personalizado |date: 'dd/MM/yyyy'-->
+            <td>{{course.releaseDate |date: 'dd/MM/yyyy'}}</td><!--colocando um pipe |date: 'dd/MM/yyyy'-->
+            <td>
+                
+                <app-star [rating] = "course.rating"></app-star>
+            </td>
+            <td>
+                <a [routerLink] = "['/courses/info', course.id]" class="btn btn-primary">Edit</a>
+            </td>
+
+            
+        </tr>
+    </tbody>
+
+</table>
+

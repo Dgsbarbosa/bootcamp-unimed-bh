@@ -1,0 +1,99 @@
+Lidando com vários componentes
+
+O que é injeção de dependência
+
+@Injectable({
+    provideIn:'root'
+
+})
+
+obs. sempre que criar um arquivo deve-se colocar um nome que se refira ao que esta proposto
+
+Arquivo salvo em 
+
+C:\Users\Douglas\Meu Drive (guinho.cq@gmail.com)\Estudos\Cursos Programaçao\Dio\bootcamps\2.unimed-bh\Modulo 4 - Desenvolvimento Web com Angular\1.Introdução ao angular 8\1. Primeiros passos\course-manager\src\app\courses\course.service.ts
+
+Link para o projeto no repositório do GitHub
+
+https://github.com/wesllhey/course-manager
+
+
+na classe de serviços os métodos devem ser apenas com variaveis estaticas que nao serão alteradas durante a execução.
+
+
+Tratando eventos data binding
+
+    Criamos um filtro em course-list.component.html  
+
+
+Transformando datas com Pipes
+
+    altera a exibição da propriedade no template, usa-se
+    
+        | date:dd/mm/yyyy -> a forma de exibição
+        ^   ^(o tipo de pipe(date))
+        ^
+        temos o pipe
+
+        exemplo em course-list.component.html
+
+
+    | lowercase = deixa minusculo 
+
+
+    Pipe customizado
+
+        criada pasta Pipe em:
+        C:\Users\Douglas\Meu Drive (guinho.cq@gmail.com)\Estudos\Cursos Programaçao\Dio\bootcamps\2.unimed-bh\Modulo 4 - Desenvolvimento Web com Angular\1.Introdução ao angular 8\1. Primeiros passos\course-manager\src\app\pipe
+
+
+    *deve declarar o pipe em app.module em declaritions
+
+
+Protegendo Rotas com Guards
+
+    Vamor criar uma barra de navegação
+    Pasta criada em:
+
+    C:\Users\Douglas\Meu Drive (guinho.cq@gmail.com)\Estudos\Cursos Programaçao\Dio\bootcamps\2.unimed-bh\Modulo 4 - Desenvolvimento Web com Angular\1.Introdução ao angular 8\1. Primeiros passos\course-manager\src\app\nav-bar
+
+    Modulo de rotas do angular
+        import { RouterModule } from '@angular/router';
+
+
+Criada pasta 404 em
+
+    C:\Users\Douglas\Meu Drive (guinho.cq@gmail.com)\Estudos\Cursos Programaçao\Dio\bootcamps\2.unimed-bh\Modulo 4 - Desenvolvimento Web com Angular\1.Introdução ao angular 8\1. Primeiros passos\course-manager\src\app\error-404
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

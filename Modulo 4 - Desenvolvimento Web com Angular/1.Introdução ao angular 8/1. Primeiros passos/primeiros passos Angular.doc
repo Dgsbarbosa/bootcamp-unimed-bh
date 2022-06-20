@@ -82,8 +82,7 @@ Mesclar atributos de uma tag com informação de um componente
 
 OnChanges: (pesquisar)
 
-Lidando com varios componentes
+para rodar deve esta na pasta correta e digitar no prompt ng serve 
 
-    O que é injeção de dependência
 
 
