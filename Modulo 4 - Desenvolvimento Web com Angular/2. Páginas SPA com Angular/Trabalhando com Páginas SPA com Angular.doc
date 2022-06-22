@@ -1,0 +1,18 @@
+Angular é um framework que possibilita conrtruir aplicaçõies web baseadas em html 5 css e js
+
+Conrtruir uma pagina com Angular
+
+    Documentação
+
+    angular.io/guide/setup-local
+
+verificar slides
+
+Angular Material
+
+    necessario importar dentro de app.modules toda vez que for usar um componente
+
+
+Criando primeiro componente
+
+Data badding : ver slides

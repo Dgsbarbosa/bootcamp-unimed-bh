@@ -1,1 +1,14 @@
-<h2>Course ID = {{courseId}}</h2>
+<h2>Course Info</h2>
+
+<hr/>
+
+<form #courseForm = "ngForm">
+
+    <div class="form-group row">
+        <label class="col-sn-2 col-from-label">Name</label>
+        <div class="col-sn-10">
+            <input [(ngModel)]="course.name" name="name" #courseName="ngModel" class="form-control">
+        </div>
+    </div>
+    
+</form>

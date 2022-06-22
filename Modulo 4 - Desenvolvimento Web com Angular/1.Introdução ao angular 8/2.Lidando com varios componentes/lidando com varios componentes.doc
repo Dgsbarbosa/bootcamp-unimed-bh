@@ -66,17 +66,57 @@ Criada pasta 404 em
     C:\Users\Douglas\Meu Drive (guinho.cq@gmail.com)\Estudos\Cursos Programaçao\Dio\bootcamps\2.unimed-bh\Modulo 4 - Desenvolvimento Web com Angular\1.Introdução ao angular 8\1. Primeiros passos\course-manager\src\app\error-404
 
     
+Trabalhando com formulários e templates
+
+    PESQUISAR
+
+Fazendo requisições em HTTP
+
+    criada a pasta Serves em
+    
+    C:\Users\Douglas\Meu Drive (guinho.cq@gmail.com)\Estudos\Cursos Programaçao\Dio\bootcamps\2.unimed-bh\Modulo 4 - Desenvolvimento Web com Angular\1.Introdução ao angular 8\1. Primeiros passos\serves
+    
+    criada pasta course-manager-serves em:
+
+        C:\Users\Douglas\Meu Drive (guinho.cq@gmail.com)\Estudos\Cursos Programaçao\Dio\bootcamps\2.unimed-bh\Modulo 4 - Desenvolvimento Web com Angular\1.Introdução ao angular 8\1. Primeiros passos\serves\course-manager-serves
+
+    criados os arquivos package.json e serve.js
+
+    pelo terminal entre na pasta course-manager-serves instale o node pelo terminal:
+        nmp install
+
+        será criada a pasta node modules
+
+        apos isto no terminal digite:
+
+        node serve.js
+
+Trabalhando com delete
+
+    <any> = aceita qualquer retorno
 
 
+Segregando a aplicação em módulos
+
+    o angular nao pemite que declare dois modulos em lugares diferentes
+
+Conhecendo a pasta shared
+
+ crie a pasta shared
+
+ usado para armazenar componentes, pipes e outras coisas genericas que podem ser usadas em varios modulos  
 
 
+Conhecendo a pasta core
+
+    crie a pasta
+
+    usado para armazenar componentes mais pesados que nao são genericos
 
 
+Tratando erros com Angular
 
-
-
-
-
+    colocado na pasta core o erro 404
 
 
 
