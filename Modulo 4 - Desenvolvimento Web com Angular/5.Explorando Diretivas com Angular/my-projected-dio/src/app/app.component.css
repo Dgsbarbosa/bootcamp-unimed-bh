@@ -1,0 +1,20 @@
+.custom{
+    color: white;
+    font-weight: bold;
+    font-style: italic;
+    background-color: black;
+}
+
+body{
+    color: blue;
+   
+}
+
+h1{
+    color: purple;
+
+}
+
+div{
+    margin: 10px;
+}

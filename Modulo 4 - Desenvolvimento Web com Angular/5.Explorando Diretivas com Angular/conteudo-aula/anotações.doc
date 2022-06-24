@@ -1,0 +1,138 @@
+github
+
+    https://github.com/ivosoares/ambiente-angular
+
+Slides
+
+    https://drive.google.com/file/d/15eBGTxkQFwICWfCRO_I0H4uWIoY4fgQx/view?usp=sharing
+
+Instalando bootstrap
+
+    npm install -D bootstrap  
+    
+        (Onde,   npm é o gerenciador de pacotes;
+                 install é o metodo;
+                 -D é que estamos usando para desenvolvimento;
+                 bootstrap é o pacote que estamos Instalando)
+
+    Apos instalado faremos um pequena alteração para que os estilos sejam globais na nossa aplicação.
+
+        1- Em angular.json
+        2- Procure por build
+        3- Na parte de styles(estilos)
+        4- Acrecente o caminho do bootstrap
+        5- caminho "node_modules/bootstrap/dist/css/bootstrap.min.css"
+
+
+
+Colocando bootstrap
+
+    Ex.: class="text-success" na tag
+
+
+
+Implementando a lógica de incremento do contador
+
+    Mudando o html usando as diretivas com:
+
+        ngStyle
+
+        basta colocar [ngStyle] dentro da tax
+
+            ex.: <div [ngStyle]=" {aqui dentro vai os criterios} ">  </div>
+
+    Ex.:
+    <div  [ngStyle] ="{background: count < 5 ? 'red' : 'green'  }">
+
+        <h2 class="text-center">Contador: {{count}}</h2>
+
+    </div> 
+
+    Como funciona a ngClass
+
+         1. no css da aplicação crie uma classe com as definiçoes
+
+            .custom{
+                color: white;
+                font-weight: bold;
+                font-style: italic;
+                background-color: black;
+            }
+
+         2. Chama a diretivas no html
+
+       <div  
+        [ngStyle] ="{background: count < 5 ? 'red' : 'green'  }"
+        [ngClass] = "{custom: count > 5 }"
+        
+        >
+        
+        <h2 class="text-center">Contador: {{count}}</h2>
+
+        </div>
+
+    A primeira diretiva estrutural - ngIf
+
+        *ngIf
+
+        ex.: 
+        <h2 *ngIf="count > 7">O Contador passou de 7! </h2> 
+
+    Implementando condicionais com ng-template
+
+        ex.: 
+        <h2 class="text-center" *ngIf="count > 7; else menor">O Contador passou de 7! </h2> 
+
+        <ng-template #menor>
+            <h2 class="text-center">O contador é menor que 7!</h2>
+        </ng-template>
+
+   
+    Trabalhando com ngSwitch
+
+        <ul [ngSwitch] = "count" class="list-group mx-auto col-3">
+  <li 
+    class="list-group-item"
+    *ngSwitchCase = "3"
+  >
+    É Igual a 3
+
+  </li>
+  <li 
+  class="list-group-item"
+  *ngSwitchCase = "5"
+>
+  É Igual a 5
+
+</li>
+<li 
+class="list-group-item"
+*ngSwitchCase = "8"
+>
+É Igual a 8
+
+</li>
+<li 
+class="list-group-item"
+*ngSwitchCase = "2"
+>
+É Igual a 2
+
+</li>
+ 
+
+<li 
+class="list-group-item"
+*ngSwitchDefault
+>
+Este é o Default!!!
+
+</li>
+
+</ul>
+
+Iteração com ngFor
+
+    criada uma ul li no app.component.html
+    criada uma variavel pessoas que é um array de objetos no app.component.ts
+

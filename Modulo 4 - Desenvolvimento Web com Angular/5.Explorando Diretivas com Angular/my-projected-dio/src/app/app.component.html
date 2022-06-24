@@ -1,0 +1,106 @@
+<body class="text-center">
+  
+
+<h1 class="text-success text-center">Live Angular Diretivas</h1>
+<br><br><br><br>
+
+<div style="border: solid 1px black;">
+  <h1 class="text-center" style="color: green;">Criando um Contador</h1>
+  <br>
+<div>
+
+  <br>
+
+<div style="border: solid 1px black;">
+  <h1 class="text-center">Trabalhando com [ngStyle] e [ngClass]</h1>
+<div  
+  [ngStyle] ="{background: count < 5 ? 'red' : 'green'  }"
+  [ngClass] = "{custom: count > 5 }"
+  
+>
+
+<h2 class="text-center" style="color: black;">Contador: {{count}}</h2>
+</div>
+</div>
+<br>
+</div>
+</div>
+
+<!--Diretivas Estrutural-->
+<h1 class="text-center">Trabalhando com *ngIf e com ng-template  </h1> 
+
+  <h2 class="text-center" *ngIf="count > 7; else menor">O Contador passou de 7! </h2> 
+
+  <ng-template #menor>
+    <h2 class="text-center">O contador é menor que 7!</h2>
+  </ng-template>
+
+<br><br>
+
+<!--ngSwitch-->
+<div style="border: solid 1px black;">
+<h1 class="text-center">Trabalhando com [ngSwitch]</h1>
+<ul [ngSwitch] = "count" class="list-group mx-auto col-3">
+  <li 
+    class="list-group-item"
+    *ngSwitchCase = "3"
+  >
+    É Igual a 3
+
+  </li>
+  <li 
+  class="list-group-item"
+  *ngSwitchCase = "5"
+>
+  É Igual a 5
+
+</li>
+<li 
+class="list-group-item"
+*ngSwitchCase = "8"
+>
+É Igual a 8
+
+</li>
+<li 
+class="list-group-item"
+*ngSwitchCase = "2"
+>
+É Igual a 2
+
+</li>
+ 
+
+<li 
+class="list-group-item"
+*ngSwitchDefault
+>
+Este é o Default!!!
+
+</li>
+
+</ul>
+<br>
+</div>
+
+<!--Iteração com ngFor-->
+<div style="border: solid 1px black; " >
+
+  <h1>Iteração com ngFor</h1>
+
+  <ul class="list-group mx-auto my-3 col-3 ">
+    <li 
+    class="list-group-item"
+    *ngFor="let pessoa of pessoas "
+    >
+      O nome da pessoa é {{pessoa.nome}} {{pessoa.sobrenome}} 
+  </li>
+
+  </ul>
+ 
+
+</div>
+
+
+
+</body>
