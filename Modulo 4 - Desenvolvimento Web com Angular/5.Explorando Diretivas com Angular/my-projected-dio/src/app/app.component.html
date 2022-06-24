@@ -1,8 +1,8 @@
-<body class="text-center">
+<body class="text-center" style="border: solid 1px black;">
   
 
 <h1 class="text-success text-center">Live Angular Diretivas</h1>
-<br><br><br><br>
+<br>
 
 <div style="border: solid 1px black;">
   <h1 class="text-center" style="color: green;">Criando um Contador</h1>
@@ -27,6 +27,7 @@
 </div>
 
 <!--Diretivas Estrutural-->
+<div style="border: solid 1px black;">
 <h1 class="text-center">Trabalhando com *ngIf e com ng-template  </h1> 
 
   <h2 class="text-center" *ngIf="count > 7; else menor">O Contador passou de 7! </h2> 
@@ -34,7 +35,7 @@
   <ng-template #menor>
     <h2 class="text-center">O contador é menor que 7!</h2>
   </ng-template>
-
+</div>
 <br><br>
 
 <!--ngSwitch-->
@@ -97,10 +98,54 @@ Este é o Default!!!
   </li>
 
   </ul>
- 
-
 </div>
 
+<!--Como enviar dados do typscript para a view e vice-versa-->
+<div style="border: solid 1px black; " >
+  <h1>Enviando dados</h1>
+  <br>
+  <h2>Do typescript para a view</h2>
+  
+  <h3 style="color: black;">{{nome}}</h3>
+  <br>
+
+  <h2>Do Template para o typescript</h2>
+
+  <button class="btn btn-success row-auto mx-auto" (click)= "clicou('Douglas')">Clique</button>
+  <br>
+
+</div>
+<br>
+
+<!--Desenvolvendo um two way data binding-->
+
+<div style="border: solid 1px black; " >
+
+<h1>Two way data binding</h1>
+<input 
+type="text" class="form-control" 
+placeholder="Digite alguma coisa"
+[(ngModel)] = "text"
+style="text-align: center; border: 3px solid red;"
+>
+<h4>Saida: {{text}}</h4>
+
+</div>
+<br>
 
 
+<!--Comando ng generate directive e configurando sua diretiva customizada
+-->
+<div style="border: solid 1px black; " >
+  <h1>ng generate directive</h1>
+  <p >O seu nome é <span spaMarcaTexto>{{nome}}</span></p>
+
+</div>
+<br>
+
+
+<div style="border: solid 1px black; " >
+
+</div>
+<br>
 </body>

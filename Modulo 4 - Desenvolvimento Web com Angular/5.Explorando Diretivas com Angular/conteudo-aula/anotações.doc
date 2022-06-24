@@ -136,3 +136,37 @@ Iteração com ngFor
     criada uma ul li no app.component.html
     criada uma variavel pessoas que é um array de objetos no app.component.ts
 
+
+Como enviar dados do typescript para a view e vice-versa
+
+    do typescript para a view e vice-versa
+
+        cria a variavel no typescript e chama ela no template com {{variavel}}
+
+    Do Template para o typescript
+
+        criamos um botao no template e criamos uma funcao no typescript
+        para chamar colocamos entre parentes na tag o metodo
+
+Desenvolvendo um two way data binding
+
+    criamos uma variavel no typescript
+    no html vamos criar um input que recebe um valor mostra na view e altera a variavel no typescript.
+
+Comando ng generate directive e configurando sua diretiva customizada
+
+    ng g d diretivas/marcaTexto
+
+    Onde: 
+        ng é o gestor de pacote
+        g é o comando generate
+        d é o comandodiretivas
+        diretivas/marcaTexto é o nome da diretiva
+
+     criada pasta diretivas
+
+      Uma diretiva precisa de um elemento, precisamos instanciar no construtor 
+
+       @input manda elemento de pai para filho
+
+    Chamando a diretiva customizada
