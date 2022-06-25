@@ -1,0 +1,69 @@
+﻿Implementando Serviços e Injeção de Dependências com Angular
+
+github
+
+    https://github.com/ivosoares/ambiente-angular
+
+slides
+
+    https://drive.google.com/file/d/1TtkbHcue3FolQM2iebpEzteiU0w5TMLi/view?usp=sharing
+
+
+O que são serviços e para que serve
+
+    ver slides
+
+    Parte pratica feita na aula anterior em my-projected-dio, 
+Nesta aula foi criada a pasta shared
+
+
+    para criar um serviços
+
+        ng g service shared/people
+
+
+Após criado o serviço devemos ir app.module procurar por providers e declarar a classe do nosso serviço
+
+
+Desenvolvendo o serviço PeopleService
+
+	Importamos duas libs do rxjs em peope service, o observable e of 
+
+    import { Observable, of } from 'rxjs';
+		
+
+    Injetando o serviço onde ele será usado
+
+    dentro de app.component.ts coloque no contrutor uma assinatura como paramentro
+
+    constructor(private peopleSevice: PeopleService){
+
+  }
+
+  automaticamento ele importa o serviço
+    import { PeopleService } from './shared/services/people.service';
+
+    depois dentro de  app.component.ts  criamos a funcao getPeople
+
+      getPeople(){
+    this.peopleSevice.getPeople().subscribe(people => {
+      this.pessoas = people;
+    })
+
+    depois chamamos ela em ngOninit
+
+
+Construindo o código de base para implementar API no projeto
+
+    Criando uma lista de personagens Rick and Morty
+
+    criamos o component list-api dentro de app
+    
+    chamamos no app.component.html com 
+    <app-list-api></app-list-api>
+  
+
+    criamos dentro de services a pasta list 
+
+    
+

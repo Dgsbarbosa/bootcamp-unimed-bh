@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { PeopleService } from './shared/services/people.service';
 
 @Component({
   selector: 'spa-root',
@@ -9,6 +10,7 @@ export class AppComponent implements OnInit{
   count = 0;
   nome = "Douglas Alexandre Barbosa"
   text = '';
+
 
   pessoas = [
     {
@@ -32,8 +34,16 @@ export class AppComponent implements OnInit{
       sobrenome:'Barbosa'
     }
   ]
+
+  pessoas2 = [
+    {
+      firstName: '',
+      lastName: '',
+      age: 0
+    },
+  ]
   
-  constructor(){
+  constructor(private peopleSevice: PeopleService){
 
   }
 
@@ -46,7 +56,9 @@ export class AppComponent implements OnInit{
       
 
     },1000)
-    console.log(this.pessoas);
+
+
+    this.getPeople();
   }
 
   clicou(nome: string): void{
@@ -54,6 +66,10 @@ export class AppComponent implements OnInit{
     
   }
   
-  
+  getPeople(){
+    this.peopleSevice.getPeople().subscribe(people => {
+      this.pessoas2 = people;
+    })
+  }
 
 }

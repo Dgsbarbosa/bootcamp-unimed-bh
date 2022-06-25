@@ -144,8 +144,41 @@ style="text-align: center; border: 3px solid red;"
 <br>
 
 
+<!--Implementando Serviços e Injeção de Dependências com Angular ng service-->
+
 <div style="border: solid 1px black; " >
+
+  <h1>ng service</h1>
+
+  <ul class="list-group mx-auto my-3 col-3 ">
+    <li 
+    class="list-group-item"
+    *ngFor="let pessoa2 of pessoas2 "
+    >
+      O nome da pessoa é {{pessoa2.firstName}} {{pessoa2.lastName}} com idade de {{pessoa2.age}} anos.
+  </li>
+
+  </ul>
 
 </div>
 <br>
+
+
+<!--Criando uma lista de personagens Rick and Morty-->
+
+<div style="border: solid 1px black; ">
+  <div class="row d-flex align-items-center justify-content-center">
+    <h1>Lista de personagens Rick and Morty</h1>
+    <div class="col-12">
+    <spa-list-api></spa-list-api>
+  </div>
+  </div>
+</div>
+
+
+<br>
 </body>
+
+<div style="border: solid 1px black; " >
+
+</div>
