@@ -10,6 +10,7 @@ import { UserListComponent } from './pages/users/user-list/user-list.component';
 import { UsersFormComponent } from './pages/users/users-form/users-form.component';
 
 import{HttpClientModule} from '@angular/common/http'
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 
 
@@ -26,7 +27,9 @@ import{HttpClientModule} from '@angular/common/http'
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule,  
+    HttpClientModule,
+    FormsModule,
+    ReactiveFormsModule  
   ],
   providers: [],
   bootstrap: [AppComponent]

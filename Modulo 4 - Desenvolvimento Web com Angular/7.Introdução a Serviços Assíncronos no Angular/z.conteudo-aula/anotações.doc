@@ -49,3 +49,34 @@ Criando a interface e service user
 
     criamos a pasta models 
     criamos a pasta service
+    
+Desenvolvendo a classe UserFormComponent
+
+    método post envia dados para o servidor
+
+    em app.module. ts importamos o FormsModule e o  ReactiveForms
+
+    em users-form.component.ts foram feitos os medtodos
+
+    FormGroup agrupa os dados de um fomulario
+
+    formControlName nome da variavel de controle do formulario
+
+    no templte user-form.component.ts criamos os formControlName em cada elemetnto 
+
+    no botao de enviar chamamos o metodo sendUser que foi criado no user-form.component.ts
+    
+Desenvolvendo o método para salvar o usuário no banco
+
+    em user-service.ts vamos criam um metodo postUser()
+
+Desenvolvendo funções de callback
+
+Finalizando o método de listagem e edição de usuário
+
+
+    ActivatedRoute: rota ativa
+
+    Rourer : rotas do angular
+
+    paramMap: observable
