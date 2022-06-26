@@ -3,3 +3,49 @@ Introdução a Serviços Assíncronos no Angular
 github
 
     https://github.com/ivosoares/crud-dio-angular
+
+O que é HttpClient
+
+Usado para fazer comunicação entre cliene e servidor usando o protocolo HTTP
+
+Criando o componente header
+
+Criando o componente users-list
+
+* as rotas sao usadas para mudar o conteudo sem recarregar a pagina
+
+ as rotas são declaradas em:
+
+    app-routing.module.ts
+
+    em:
+
+    const routes: Routes = 
+    [
+    {path:'', component:UserListComponent}
+    ];
+
+    Onde: ele é um array de objetos e dentro dos objetos ele espera dois parametros, o path e o componente
+
+
+Desenvolvendo a lista de usuários
+
+Criando o componente user-form
+
+    colocando nome no path: 'form' 
+
+    no html chama dentro da tag
+
+        routerLink="/form" onde o caminho, neste caso "form" 
+
+Apresentação do sheet.best
+
+    criamos uma planilha do google sheets para simular um banco de dados externo no sheet best ( ler documentaçao)
+
+    https://sheet.best/admin
+
+
+Criando a interface e service user
+
+    criamos a pasta models 
+    criamos a pasta service
