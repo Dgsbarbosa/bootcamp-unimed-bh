@@ -1,0 +1,95 @@
+<body class="text-center my-3">
+
+    <!--Trabalhando com data-biding-->
+<div style="border: 2px solid black;" class="my-5 p-5">
+        <h1>Trabalhando com data-biding</h1>
+        <div style="border: 2px solid black;" class="my-3">
+        
+        
+        <!--Chamando a variavel nome pela interpolação-->
+        <h2>O seu nome é {{nome}}</h2>
+
+        <!--Chamando atraves de interpolação com metodo-->
+        <h2>Seu sobrenome é {{retornaSobrenome()}}</h2>
+
+        <!--Tranportando imagens com com propriety-biding -->
+        <img [src]="imageUrl" >
+    </div>
+        <!--Trabalhando com event-biding-->
+        <div style="border: 2px solid black;" class="my-3">
+            <button (click)="clicou()" class="my-3">Clique</button>
+
+            <input #input (keyup)="digitouAqui(input.value)">
+            <h3>Saida: {{input.value}}</h3>
+        </div>
+
+        <!--Trabalhando com biding de atributos-->
+        <div style="border: 2px solid black;" class="my-3">
+
+            <h1>Biding de atributos</h1>
+
+            <button [attr.aria-label]="buttonText">{{buttonText}}</button>
+
+        </div>
+
+        <!--mudando a cor do botão com Style-biding-->
+        <div style="border: 2px solid black;" class="my-3 ">
+            <h1>Style-biding</h1>
+
+            <button 
+            [style.backgroundColor]="bgColor" 
+            [style.font-size]="fontSize"
+            [style.color]="textColor"
+            >Clique aqui</button>
+        </div>
+
+        <!--mudando o tamanho da imagem com Style-biding-->
+        <div style="border: 2px solid black;" class="my-3">
+            <h1>Style-width</h1>
+            <img [src]="imageUrl" [style.width.px]="widthImg">
+        
+        </div>
+
+        <!--Trabalhando com Two-way databind-->
+        <div style="border: 2px solid black;" class="my-3">
+            <h1>Two-way data biding</h1>
+
+            <input 
+            type="text" 
+            class="form-control text-center"
+            [(ngModel)]="textInput" 
+            placeholder="Digite algo"
+            >
+
+            <p class="text-default">Você digitou: {{textInput}}</p>
+        </div>
+
+
+</div>
+
+    <!--Transferindo dados entre componente -->
+<div style="border: 2px solid black;" class="my-3 p-5" >
+
+    <h1>Transferindo dados entre componente</h1>
+
+    <!---->
+    <div style="border: 2px solid black;" class="my-3 ">
+        <h1>Componente Button</h1>
+        <div >
+        
+        <app-button [btnText]="'Enviar'" [btnType]="'btn-primary'"></app-button>
+        <app-button [btnText]="'Salvar'" [btnType]="'btn-success'"></app-button>
+        <app-button [btnText]="'Deletar'" [btnType]="'btn-danger'"></app-button>
+        <app-button [btnText]="'Teste'" [btnType]="'btn-default'"></app-button>
+        </div>
+    </div>
+    
+
+</div>
+
+
+
+</body>
+
+<!---->
+<div style="border: 2px solid black;" class="my-3"></div>

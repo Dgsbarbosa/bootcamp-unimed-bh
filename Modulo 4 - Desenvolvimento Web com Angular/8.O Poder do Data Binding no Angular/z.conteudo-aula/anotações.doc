@@ -4,3 +4,60 @@ O Poder do Data Binding no Angular
     
      https://github.com/ivosoares/crud-dio-angular
 
+O que é Angular Data Binding
+
+    Forma que o angular transporta dados entre a view e a logica
+
+    Do componente para o DOM
+
+        Interpolação {{page title}}
+
+        Property Binding <img [src]='game.imageUrl'>
+
+    Do DOM para o componente
+
+        Event Binding <buttin (click)='toggleImage()'>
+
+    Bidirecional
+
+        Dom <-------------> componente
+
+        Two-Way Binding <input [(ngModel)] ='listFilter/'>
+
+
+Interpolação e property data binding - Parte 1
+
+    Criada a pasta crud-dio-angular-main em:
+
+        C:\Users\Douglas\Meu Drive (guinho.cq@gmail.com)\Estudos\Cursos Programaçao\Dio\bootcamps\2.unimed-bh\Modulo 4 - Desenvolvimento Web com Angular\8.O Poder do Data Binding no Angular\crud-dio-angular-main
+
+
+Interpolação e property data binding - Parte 2
+
+    criada a funcao clicou() em data-binding
+
+    Event-binding
+
+Desenvolvendo class binding
+
+    biding de atributos
+
+Desenvolvendo style binding
+
+    [style.backgroundColor]
+    [style.font-size]
+
+
+Como funciona o two-way data biding
+
+    pega em tempo real entre o componente e a view
+
+    [ngmodel]
+
+    no app.module deve se importar o FormModule
+
+Transferindo dados entre componentes - Parte 1
+
+    foi criado o componente button
+
+    foi chamado o componente button em data-biding
