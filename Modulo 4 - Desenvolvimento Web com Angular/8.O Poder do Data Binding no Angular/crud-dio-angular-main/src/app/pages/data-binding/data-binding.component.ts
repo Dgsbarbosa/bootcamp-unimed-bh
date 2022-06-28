@@ -19,6 +19,8 @@ export class DataBindingComponent implements OnInit {
   textColor='white'
   widthImg = 600;
   textInput = '';
+  number = 0;
+  destroy = false;
 
 
   constructor() { }
@@ -42,6 +44,19 @@ export class DataBindingComponent implements OnInit {
   }
   digitouAqui(value:any){
     console.log(value);
+  }
+
+  clicouNoFilho(text: any){
+    console.log(text);
+    
+  }
+
+  incrementa(){
+    this.number++;
+  }
+
+  destroiComponente(){
+    this.destroy = true;
   }
 
 }

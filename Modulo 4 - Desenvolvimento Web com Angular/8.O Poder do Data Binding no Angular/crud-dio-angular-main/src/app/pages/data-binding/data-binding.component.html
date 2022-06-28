@@ -77,10 +77,24 @@
         <h1>Componente Button</h1>
         <div >
         
-        <app-button [btnText]="'Enviar'" [btnType]="'btn-primary'"></app-button>
+        <app-button [btnText]="'Enviar'" 
+            [btnType]="'btn-primary'"
+            (click)="incrementa()">
+    </app-button>
+
         <app-button [btnText]="'Salvar'" [btnType]="'btn-success'"></app-button>
-        <app-button [btnText]="'Deletar'" [btnType]="'btn-danger'"></app-button>
-        <app-button [btnText]="'Teste'" [btnType]="'btn-default'"></app-button>
+
+        <app-button [btnText]="'Deletar'" [btnType]="'btn-danger'" (click)="destroiComponente()"></app-button>
+
+        <app-button btnText="Teste" 
+            btnType="btn-primary" 
+            (clickChildren)="clicouNoFilho($event)">
+        </app-button>
+
+        <app-life-cycle [number]="number" *ngIf="!destroy"></app-life-cycle>
+
+
+
         </div>
     </div>
     

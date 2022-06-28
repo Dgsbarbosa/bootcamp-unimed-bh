@@ -61,3 +61,26 @@ Transferindo dados entre componentes - Parte 1
     foi criado o componente button
 
     foi chamado o componente button em data-biding
+
+Transferindo dados entre componentes - Parte 2
+
+O ciclo de vida do Angular - Parte 1
+
+    Sao metodos e funcoes que sao chamados em certos momentos
+
+        -contructor
+        -ngOnChanges
+        -ngOnInit
+        -ngDoCheck
+            -ngAfterContentInit
+            -ngAfterContentChecked
+            -ngAfterViewInit
+            -ngAfterViewChecked
+        -ngDestroyed
+
+        ver pdf
+
+
+O ciclo de vida do Angular - Parte 2
+
+
