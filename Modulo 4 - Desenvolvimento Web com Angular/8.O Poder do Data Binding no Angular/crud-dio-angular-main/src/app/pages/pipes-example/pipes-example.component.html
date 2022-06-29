@@ -1,34 +1,41 @@
 <div class="form-group">
   <label for="number">Number:</label>
+  <br>
   <input type="text" [(ngModel)]="number" class="form-control" id="number">
   <p>{{ number }}</p>
   <button class="btn btn-success" (click)="mudaValor()">Click</button>
 </div>
+<br>
 
-<div class="">
+<div class="" >
     <p>SLICE {{ text | slice:3:8}}</p>
-
+<br>    
     <p>sem formatacao:</p>
     <p>{{ number | number}}</p>
-
+<br>
     <p>Resultado com formatacao</p>
     <p>{{ number | number:'2.0-1'}}</p>
-
+<br>
     <p>Resultado em moeda</p>
     <p>{{ number | currency:'BRL'}}</p>
-
+<br>
     <p>Resultado em porcentagem</p>
     <p>{{ number | percent}}</p>
 
 
     <p>Data de Hoje</p>
     <p>{{ date }}</p>
+    <br>
     <p>{{ date | date}}</p>
+    <br>
     <p>DATA FORMATADA: {{ date | date:"dd/MM/yyyy":"GMT-0300":"en-US" }}</p>
+    <br>
     <p>{{ date | date:'full' | uppercase}}</p>
+    <br>
     <p>{{ text | uppercase}}</p>
 
     <p>{{ pessoa | json}}</p>
+
 </div>
 <div class="container">
   <div class="col">
@@ -41,6 +48,7 @@
         <button class="btn btn-primary" (click)="addToObservable(nome.value)">add Observable</button>
       </div>
     </div>
+    
     <div class="row-6">
       <h3>Lista formatada</h3>
       <p>Tamanho da lista {{ nomes.length }}</p>

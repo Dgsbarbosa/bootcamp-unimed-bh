@@ -9,15 +9,20 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./pipes-example.component.css']
 })
 export class PipesExampleComponent implements OnInit {
+
   number = 0;
+
   text = 'hello world!';
+
   date = new Date;
+  
   pessoa = {
-    nome: 'Ivonaldo',
-    idade: '26',
-    profissao: 'Instrutor'
+    nome: 'Douglas',
+    idade: '34',
+    profissao: 'Desenvolvedor'
   };
-  nomes = ['Ivonaldo', 'ana', 'maria'];
+
+  nomes = ['Douglas', 'sabrina', 'maria'];
   nomesPromisse: any;
   nomes$: any;
 

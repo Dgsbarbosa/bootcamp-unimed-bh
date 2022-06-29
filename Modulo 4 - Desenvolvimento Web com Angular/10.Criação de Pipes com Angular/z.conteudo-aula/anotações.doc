@@ -4,3 +4,20 @@ https://github.com/ivosoares/crud-dio-angular
 
 mesmo projeto aula 8
 
+    Pipes sao funçoes simples que pode usar em expressoes nos Templates para aceitar um valor de entrada e retorna um valor teranformado
+
+    doc https://angula.io/guide/pipes 
+
+    criada a pasta pipes
+
+Criando seu proprio pipes
+
+    tem dois tipos: Puro e Impuro
+
+    Puro: pipe padrao, só muda quando altera o valor de entrada
+
+    Impuro: executam para cada detecção de alterções 
+
+criar pipe CLI
+
+    ng generate pipe printList
