@@ -1,3 +1,4 @@
+import { BookService } from './components/bookstore-app/product-list/product-list.component.service';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
@@ -10,6 +11,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { FooterComponent } from './components/shared/footer/footer.component';
 import { FiltersComponent } from './components/bookstore-app/filters/filters.component';
 import { ProductItemComponent } from './components/bookstore-app/product-list/product-item/product-item.component';
+import { HttpClientModule } from '@angular/common/http';
 
 
 
@@ -26,9 +28,10 @@ import { ProductItemComponent } from './components/bookstore-app/product-list/pr
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
-  providers: [],
+  providers: [BookService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
