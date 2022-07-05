@@ -1,0 +1,144 @@
+MySql - Explorando relacionamentos com workbench
+
+    Slides
+
+        Introdução a comand line
+
+        https://drive.google.com/file/d/1U0g0C1n0zhk0hrOdvu8qzgX2T4HDwR28/view?usp=sharing
+
+
+        Modelo Relacional
+
+        https://drive.google.com/file/d/1HwyRs7JeUQYVOesR2exPIdF8pwQSHfU2/view?usp=sharing
+
+
+
+Operações básicas no command line - Parte 1
+
+    Operar o banco de dados via terminal
+
+    Em:
+
+        C:\xampp\mysql\bin
+
+    Digite cmd na barra
+
+    Para entrar CLI digite o comando:
+
+        É SEMPRE SECESSÁRIO USAR (;) PONTO E VIRGILA NO FINAL DO COMANDO
+
+        mysql -u root;
+
+        ou
+
+        mysql -u root -p 1234 (caso tenha senha)  
+
+    Para listas os databases que tem:
+
+        show databases
+
+    Para selecionar o database:
+
+        use nome_da_tabela
+
+    Para visualizar as tabelas que tem no database:
+
+        show table
+
+    Para criar tabela: 
+    (criado o database 'dio_mysql' e a tabela 'cusrsos')
+
+        CREATE TABLE cursos(id_curso INT PRIMARY KEY NOT NULL AUTO_INCREMENT, nome VARCHAR(10));
+
+        id sempre é bom colocar como PRIMARY KEY
+
+
+    Para inserir dados na tabela:
+
+        INSERT INTO cursos (nome) VALUES ('MySql');
+
+    Para verificar a tabela:
+
+        SELECT * FROM cursos;
+    
+    Para verificar dado especifico
+
+        SELECT * FROM cursos WHERE nome = 'Economia'
+
+    Para atualizar dado:
+
+        UPDATE cursos SET nome='HTML 5' WHERE id_curso=2;
+
+    Para deletar dados
+
+        (SEMPRE USE ANTE DELETAR O SELECT * FROM cursos WHERE nome = 'Economia')
+
+        DELETE FROM cursos WHERE nome='Economia';
+
+    Alterar tabela:
+        (adicionamos a coluna Carga Horaria com 2 digitos)
+
+        ALTER TABLE cursos ADD carga_horaria INT(2) AFTER id_curso; 
+
+            (AFTER CRIA NO FINAL)
+            (BEFORE CRIA NO COMEÇO)
+
+    Deletar tabelas:
+
+        DROP TABLE nome_da_tabela
+
+    Deletar database: 
+    
+        DROP database nome_do_database
+
+
+
+
+Modelo Relacional
+
+    ver slides 
+
+    criado o database 'videos'
+
+
+    video parou em 06:45
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .

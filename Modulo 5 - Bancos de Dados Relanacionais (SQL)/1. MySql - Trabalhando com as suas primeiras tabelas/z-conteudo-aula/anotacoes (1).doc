@@ -1,0 +1,40 @@
+Primeiros passos na criação de suas tabelas
+
+    slides
+
+        Parte 1
+        https://drive.google.com/file/d/1wQqcZf08b323vlotcByJCQZPT42W_-qG/view?usp=sharing  
+
+        Parte 2
+        https://drive.google.com/file/d/1nuEoTnHYTPVUkjeN5Nv24k-9l8oI5O-v/view?usp=sharing
+
+
+    instalar o mysql
+    instalar p xammp verificando se nao ha erros 
+
+Criando tabelas
+
+    abra o xammp
+    inicialize o apache
+    no chrome coloque localhost/phpmyadmin
+    no phpmyadmin va em banco de dados
+    de um nome para o banco de dados 
+    click em criar
+
+    CREATE TABLE
+
+    foi criada a tabela pessoas e a tabela pessoa
+
+
+Inserindo dados na tabela
+
+    INSERT INTO 
+
+   EX.:
+
+    INSERT INTO pessoas (nome, nascimento) VALUES ('Douglas' , '1988-5-26')
+    
+
+    click crtl + enter para inserir
+
+     foi criado o arquivo dio.sql

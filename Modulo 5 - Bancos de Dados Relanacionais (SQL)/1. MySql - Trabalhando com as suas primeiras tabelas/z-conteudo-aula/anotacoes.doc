@@ -1,0 +1,97 @@
+Primeiros passos na criação de suas tabelas
+
+    slides
+
+        Parte 1
+        https://drive.google.com/file/d/1wQqcZf08b323vlotcByJCQZPT42W_-qG/view?usp=sharing  
+
+        Parte 2
+        https://drive.google.com/file/d/1nuEoTnHYTPVUkjeN5Nv24k-9l8oI5O-v/view?usp=sharing
+
+
+    instalar o mysql
+    instalar p xammp verificando se nao ha erros 
+
+Criando tabelas
+
+    abra o xammp
+    inicialize o apache
+    no chrome coloque localhost/phpmyadmin
+    no phpmyadmin va em banco de dados
+    de um nome para o banco de dados 
+    click em criar
+
+    CREATE TABLE
+
+    foi criada a tabela pessoas e a tabela pessoa
+
+
+Inserindo dados na tabela
+
+    INSERT INTO 
+
+   EX.:
+
+    INSERT INTO pessoas (nome, nascimento) VALUES ('Douglas' , '1988-5-26')
+    
+
+    click crtl + enter para inserir
+
+     foi criado o arquivo dio.sql
+
+    A boa pratica diz que devemos compartilhar o banco de dados junto com a aplicação
+
+Selecionando e alterando dados   
+
+    SELECT
+        SELECT*FROM pessoas
+
+        no lugar de (*) asteristico podemos passar o atributo 
+
+        EX 
+
+            SELECT nome, nascimento FROM pessoas 
+
+    UPDATE 
+
+        UPDATE pessoas SET nome = 'Douglas Barbosa' WHERE id=1; 
+
+            WHERE condicional do mysql
+
+Deletando dados
+
+    NÃO TEM COMO VOLTAR O DELETE
+
+    DELETE FROM
+
+        DELETE FROM pessoas WHERE id =8;
+
+Ordenando dados
+
+    ORDER BY
+
+    Ordena a forma que as informações serão exibidas, de forma crescente ou decrescente
+
+        SELECT*FROM pessoas ORDER BY nome ASC (crescente)
+
+        SELECT*FROM pessoas ORDER BY nome DESC (decrescente)
+
+
+Agrupando dados
+
+    GROUP BY
+
+        Agrupa as informações de acordo com o criterio Selecionando
+
+    EX
+
+        SELECT COUNT (qtd), GENERO FROM pessoa GROUP genero
+
+
+    ALTER TABLE 
+
+        Altera a tabela
+
+        ALTER TABLE `pessoa` ADD `genero` VARCHAR(1) NOT NULL AFTER `nascimento`;
+
+
