@@ -1,0 +1,34 @@
+MySQL - Consultas com Join
+
+    Arquivo SQL
+
+    https://drive.google.com/file/d/1srZQGemOtccHAvlaq0_6h9ZOnZo5dqlg/view?usp=sharing
+    
+
+    Criado o database mysql_canais
+
+    AS = usado para abreviar 
+
+    SELECT v.nome_video, v.autor_video, c.nome_canal 
+    FROM videos_canais AS vc 
+    JOIN videos AS v  
+    ON vc.fk_video = v.id_video;
+
+
+JOIN canais AS c ON vc.fk_canal = c.id_canal
+
+
+Conceito inicial sobre RIGHT e LEFT JOIN
+
+    INNER JOIN = retorna valores que estão presentes na consulta, desconsiderando valores nulos
+
+    OUTER JION = retorna todos os valores, mesmo nulos
+
+    SELECT * FROM videos_canais AS vc  
+    RIGHT OUTER JOIN videos AS v  
+    ON vc.fk_video = v.id_video;
+
+    SELECT * FROM videos_canais AS vc  
+    RIGHT OUTER JOIN videos AS v  
+    ON vc.fk_video = v.id_video
+    RIGHT OUTER JOIN canais AS c ON vc.fk_canal = c.id_canal
