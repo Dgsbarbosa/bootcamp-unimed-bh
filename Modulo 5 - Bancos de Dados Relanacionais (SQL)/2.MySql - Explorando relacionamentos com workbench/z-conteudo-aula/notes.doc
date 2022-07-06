@@ -101,13 +101,31 @@ Modelo Relacional
     criado o database 'videos'
 
 
-    video parou em 06:45
+    Preparando a tabela videos para receber dados de outra tabela
+
+        Criando o relacionamento 
+
+            O campo que ira receber o relacionamento deve ser do tipo int
+
+            Como boa pratica a coluna que vai receber a for in key são escritas com fk_ na frente do nome da coluna
+
+            Na estrutura da tabela entre em VISÃO DE RELAÇÃO
+            Nas propriedades nos atributos ON DELETE E ON UPDATE colocamos  a opção CASCADE
 
 
+                Traz todas as colunas solicitadas
+
+                SELECT * FROM `videos` JOIN author ON videos.fk_author = author.id_author;
 
 
+                Traz colunas especificas
 
+                SELECT videos.title, author.name FROM `videos` JOIN author ON videos.fk_author = author.id_author;
 
+        Criando a tabela seo e relacionando com a tabela videos
+
+            Criada a tabela seo
+            Criada a tabela playlist
 
 
 
