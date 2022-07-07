@@ -1,4 +1,4 @@
-Introdução ao Ecossistema .NET e Documentação
+Introdução ao Ecossistema .NET e Documentação (slide 1)
 
     Site
         https://dotnetfoundation.org/
@@ -10,5 +10,44 @@ Introdução ao Ecossistema .NET e Documentação
 
         https://dotnet.microsoft.com/en-us/
 
-Desenvolvimento multiplataforma com .NET: contexto e conceitos
+Desenvolvimento multiplataforma com .NET: contexto e conceitos (slide 2)
+
+    
+
+        https://dotnet.microsoft.com/en-us/platform/open-source
+
+    
+
+    .NET Standard
+
+        https://dotnet.microsoft.com/en-us/platform/dotnet-standard
+
+
+    Entendendo .NET Framework
+
+        Entendendo .NET e .NET Core   
+
+            https://devblogs.microsoft.com/dotnet/performance-improvements-in-net-5/
+
+
+    Padrao de codificação .NET (Slide 3)
+
+        O que é escrever um bom código?
+
+        Entender o Clean Code.
+
+
+    Ferramentas e Linguagens (Slide 4)
+
+        Ferramentas para desenvolvimento e utilitários
+
+    
+    O que usar? Quando usar? (Slide 5)
+
+        
+
+
+
+
+
 
