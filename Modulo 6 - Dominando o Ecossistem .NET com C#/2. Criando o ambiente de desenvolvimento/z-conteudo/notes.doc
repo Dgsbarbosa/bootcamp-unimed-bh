@@ -1,0 +1,47 @@
+Criando o ambiente de desenvolvimento
+
+    Instalando o .NET
+
+        https://dotnet.microsoft.com/en-us/download
+
+        Recursos
+            • Documentação do .NET Core: https://aka.ms/dotnet-docs
+            • Documentação do SDK: https://aka.ms/dotnet-sdk-docs
+            • Notas sobre a Versão: https://aka.ms/netcore3releasenotes
+            • Tutoriais: https://aka.ms/dotnet-tutorials
+
+
+    Diferenças entre .NET Framework, Core e 5
+
+    
+    Framework e Runtime
+
+    Conhecendo a CLI do .NET
+
+        Comandos
+
+            dotnet --version
+
+            dotnet --help
+
+            dotnet --info
+
+            dotnet new
+                Examples:
+                    dotnet new mvc --auth Individual
+                    dotnet new blazorserver --auth Individual
+                    dotnet new --help
+
+            dotnet new --list --tag web (filtro de procura)
+
+            dotnet new --help
+
+            dotnet new console -o nomeDaAplicação (cria um arquivo .Net)
+
+            dotnet run (executa o .Net, deve-se estar dentro da pagina)
+
+            dotnet build (compila os arquivos)
+
+            dotnet restore (resgata as dependencias do projeto)
+
+            
