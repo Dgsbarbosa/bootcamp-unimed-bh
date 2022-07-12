@@ -2,4 +2,82 @@ Primeiros passos com .NET
 
     O que é e como funciona o C#
 
-        
+        github
+
+        https://github.com/gabrielfbarros/csharp-examples
+
+    Tipos de valor
+
+        NUmericas: sbyte, short, int, log, byte, ushort, uint, ulong
+
+        Caracteres Unicode: char
+
+        Pontos flutuantes: float, double, decimal
+
+        Booleano: bool 
+
+        enum, struct e tipos nllable (Exemplo int?)
+
+    Tipos de referencia
+
+        Armazenam referencia dos seus dados, duas variaveis podem fazer referencia ao mesmo objeto, 
+
+            Tipos de  classe: class, object, string
+
+            Tipos de arrays: int[], int[,]
+
+            interface, delegate
+
+
+    Utilizando instruções em programas
+
+
+        if, switch, while, do, for, foreach, break, continue, return, etc
+
+    Aula Pratica
+
+        Salvo em: 
+        C:\Users\Douglas\Meu Drive (guinho.cq@gmail.com)\Estudos\Cursos Programaçao\Dio\bootcamps\2.unimed-bh\Modulo 6 - Dominando o Ecossistem .NET com C#\3. Primeiros passos com .NET\z-conteudo\csharp-examples-master.zip
+
+
+
+    O que são Classes e Objetos em C#
+
+     Objetos são criados usando o operador new
+
+        Ponto p1 = new Ponto(0,0);
+        Ponto p2 = new Ponto(10,20);
+
+        Os membros de uma classe podem ser:
+
+            public
+            protected
+            internal
+            private
+
+        Herança
+
+            Usa-se (:) dois pontos para Herança
+
+                public class Teste2 : Teste 
+
+        O que são Structs
+
+            São estruturas de dados 
+
+        Interface
+
+            define um contrato, pode conter metodos, proprieedades
+
+        Enums
+
+            è um tipo de valor distinto, com um conjunto de constantes nomeadas
+
+            Ex:
+
+                enum Cor
+                {
+                    verde,
+                    azul,
+                    vermelho
+                }

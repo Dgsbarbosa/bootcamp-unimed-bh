@@ -6,11 +6,24 @@ namespace myApp
     {
         static void Main(string[] args)
         {
-            int numeroDeVezes = 5;
-            for (int i = 1; i <= numeroDeVezes; i++)
+            
+            for (int i = 1; i <= 10; i++){    
+                Console.WriteLine($"\nTabuada do {i}" );
+            
+                for(int j = 1; j<= 10; j++){
+               
+                Console.WriteLine($"{i} X {j} = {i * j}");   
+            }}
+                string texto;
+            do{
+                texto = Console.ReadLine();
+                Console.WriteLine($"Você digitou {texto}");
+
+            } while (!string.IsNullOrEmpty(texto));
             {
-                Console.WriteLine($"Este é a passagem {i} do nosso for");   
+                Console.WriteLine("Este valor é nulo");
             }
+
             
         }
     }
