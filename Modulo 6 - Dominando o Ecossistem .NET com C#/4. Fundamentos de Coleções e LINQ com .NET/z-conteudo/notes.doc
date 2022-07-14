@@ -1,0 +1,104 @@
+Fundamentos de Coleções e LINQ com .NET
+
+    Introdução Arrays
+
+        Arrays armazenam valores do mesmo tipo
+
+            1. int[] array = new int[4];
+
+            2. int[] array = new int[] {42,72,74,61};
+
+            3. string[] meses = {"Jan", "Fev"};
+
+            ver Slide Aula 1
+
+    
+
+    Criada a pasta projetos e a pasta colecoes
+
+        dotnet new sln --name Nome (cria uma solution, um agrupamento dos projetos)
+
+        code . (abre a pasta no vscode)
+
+
+        Para habilitar o Intellisence dentro arquivo Program.cs Aperta F1 e digite omnisharp:select project
+
+
+    Manipulando Arrays
+
+        Algoritmos de ordenação
+
+            Bubble sort
+
+        
+    Classe Array (ver Slide Aula 2)
+
+        A Classe Array é uma classe C# que nos oferece diversos métodos que nos auxiliam a trabalhar com arrays 
+
+    Ordenando pela classe Array
+            Para importar o using System segura ctrl  e aperta . ponto
+
+        Metodo sort
+
+            Array.Sort()
+
+        Copiando um Array 
+
+            Array.Copy()
+
+        Verificando um elemento existente
+
+            Array.Exists()
+
+        
+        Verificando todos os elementos do array
+
+            Array.TrueForAll()
+
+        Encontrando um elemento no array
+
+            Array.Find()            
+            Array.FindIndex()
+            Array.FindLast()
+            Array.FindLastIndex()
+            
+        
+        Encontrando o índice de um valor
+
+            Array.FindAll(); (aceita uma expressão)
+
+            ou
+
+            Array.IndexOff();
+
+
+
+        Redimensionando um array
+
+            Array.Resize();
+
+
+        Convertendo um array
+
+            Array.ConvetAll();
+
+
+
+ Introdução coleções genéricas (Slide Aula 3)
+
+    Declarando e acessando uma lista
+
+        Importe o System.Collection.Generic apertando ctrl + . (ponto)
+
+            List<string> nomeDaLista = new List<string>();
+
+            nomeDaLista.(ponto) revela uma gama de opções
+
+            criado o arquivo lista
+
+
+
+    Removendo elemento da lista
+
+        nomeDaLista.Remove("parametro")
+
