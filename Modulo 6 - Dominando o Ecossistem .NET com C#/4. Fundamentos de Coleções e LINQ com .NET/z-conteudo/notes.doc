@@ -92,7 +92,7 @@ Fundamentos de Coleções e LINQ com .NET
 
             List<string> nomeDaLista = new List<string>();
 
-            nomeDaLista.(ponto) revela uma gama de opções
+            nomeDaLista.(ponto); revela uma gama de opções
 
             criado o arquivo lista
 
@@ -100,5 +100,119 @@ Fundamentos de Coleções e LINQ com .NET
 
     Removendo elemento da lista
 
-        nomeDaLista.Remove("parametro")
+        nomeDaLista.Remove("parametro");
 
+    Adicionando coleções na lista
+
+        nomeDaLista.AddRange("item que quer add"); (adiciona uma coleção dentro de outra coleção).
+
+    Adicionando elemento por índice
+
+        nomeDaLista.Insert(indice, "O item a ser inserido";)
+
+
+
+Coleções Especificas (Slide Aula 4)
+
+    Queue (Fila): Obedece a ordem FIFO (First In First Out)
+    Stack (Pilha): Obedece a ordem LIFO (Last In First Out)
+
+    Introdução a Fila
+
+        Filas na prática
+
+            Queue<string> nome = new Queue<string>()
+
+            Add na Fila
+
+                nome.Enqueue
+
+    Introdução a Pilha
+
+        Pilha sai primeiro o ultimo elemento que entrou
+
+Dicionarios  (Slide Aula 5)
+
+    Usa-se
+
+        Dictionary<string,string> nome = new Dictionary<string,string>();
+
+
+    Acessando um valor
+
+        no projetos
+
+    Removendo um valor
+
+        nome.Remove();
+
+    Acessando de maneira segura
+
+        TryGetValue();
+
+Operações LINQ (Slide Aula 6)
+
+    Language-Integrad Query (LINQ)
+
+        Ha duas formas de usar o LINQ, pela query e pelo Metodo
+
+        Obtendo e ordenando valores com LINQ
+
+            Ex:
+            int[] arrayNumeros = new int[5] {1,4,8,15,19};
+
+                //com query
+                var numerosParesQuery = 
+                    from num in arrayNumeros
+                    where num %2 ==0
+                    orderby num
+                    select num;
+
+                //com metodo
+
+                var numerosParesMetodo = arrayNumeros.Where(x => x%2 == 0).OrderBy(x=>x).ToList();
+
+                System.Console.WriteLine("Numeros pares query: " + string.Join(", ",numerosParesQuery));
+
+                System.Console.WriteLine("Numeros pares metodo: " + string.Join(", ",numerosParesMetodo));
+
+
+        Valores mínimo, máximo e médio com LINQ
+
+
+            Ex.
+
+                var minimo = arrayNumeros.Mnin();
+                var maximo = arrayNumeros.Max();
+                var medio = arrayNumeros.Average();
+
+        Sum e Distinct
+
+            Ex.:
+
+                var soma = arrayNumeros.Sum(); //Sum
+                var arrayUnico = arrayNumeros.Distinct().ToArray(); //Distinct
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
