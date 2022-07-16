@@ -1,8 +1,44 @@
 Tratamento de Erros em C# com Exceptions
 
+    Documentação
 
+        https://docs.microsoft.com/pt-br/dotnet/api/system.exception?view=net-6.0
     github:
 
         https://github.com/CarolinaSL/CourseExamplesException
 
+    Slide
+
+        C:\Users\Douglas\Meu Drive (guinho.cq@gmail.com)\Estudos\Cursos Programaçao\Dio\bootcamps\2.unimed-bh\Modulo 6 - Dominando o Ecossistem .NET com C#\5. Tratamento de Erros em C# com Exceptions\z-conteudo
+
     
+    Conceitos e importância do tratamento de exceções
+
+        aula no Slide
+
+    Hierarquia de classes exception
+
+        Propriedades e métodos úteis da classe Exception
+
+            slide pagina 20
+
+
+
+     Comandos para lançar e tratar exceções  
+
+        Aula slide pagina 25
+
+    Customizando Exceções
+
+        Aula slide pagina 31
+
+    
+    Boas práticas no tratamento de exceções
+
+        Aula slide pagina 35
+
+    Revisando testes de unidade
+
+        Aula slide pagina  45
+
+        

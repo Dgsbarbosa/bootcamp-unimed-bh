@@ -1,0 +1,70 @@
+Trabalhando com Arquivos e Streams em C#
+
+    github
+
+        https://github.com/ricardovicentini/arquivos_e_streams
+
+    Slides
+
+        https://docs.google.com/presentation/d/11IZjePyVnqdoigGWr6QXmoGEGewBVVOO/edit#slide=id.p1
+
+
+    System.IO 
+
+        Slide pagina 5
+
+     para usar essas classes é preciso importar o System.IO
+
+         using System.IO;
+            
+     Demo Criar Arquivo
+
+        Slide pagina 12
+
+        criado o repositorio File_And_FileInfo 
+
+        Criar Arquivo 
+            
+            File.Create();
+
+        Ex.:
+
+            using System.IO;
+
+            var path = Path.Combine(Environment.CurrentDirectory,"teste.txt");
+
+            File.Create(path);
+
+
+        Criar Arquivo com texto com Streamwriter
+            
+            File.CreateText();
+        
+        Ex.: 
+
+            var path = Path.Combine(Environment.CurrentDirectory,"teste2.txt");
+            var sw = File.CreateText(path);
+            sw.WriteLine("Esta é a linha 1 do nosso File.CreateText")
+            sw.WriteLine("Esta é a linha 2 do nosso File.CreateText")
+            sw.WriteLine("Esta é a linha 3 do nosso File.CreateText")
+            sw.Flush();
+
+            Os dados ficam em memoria, sendo necessario  a descarga do que esta em memória, assim de fato ela é escrita no arquivo, como boa pratica é bom colocar um Flush por linha;
+
+    Tratamento de Erros
+
+        para rodar o CriarArquivo();
+
+        foi necessario mudar o lauch.jason na parte console, escolher externalTerminal no vscode para que a aplicação rodasse
+
+        foi criado um try catch na aplicação para tratar erro de escrita no nome do arquivo
+
+        Classe que não permite caracteres invalidos para criação de arquivos
+
+            Path.GetInvalidFileNameChars();
+
+    Diretórios
+
+        criado o Diretório DIRECTORY_AND_DERECTORYINFO  
+
+        
