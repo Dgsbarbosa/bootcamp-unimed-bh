@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "UgwmZkBm0BxVKn1z17wSM6g6IoaLXpV3QDbMoPDPQax6j709jNX1Ca3kbV7LYwoPFvgd7EY9jpZGrDiv1XFM+Q==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Douglas\\Meu Drive (guinho.cq@gmail.com)\\Estudos\\Cursos Programaçao\\Dio\\bootcamps\\2.unimed-bh\\Modulo 6 - Dominando o Ecossistem .NET com C#\\6. Trabalhando com Arquivos e Streams em C#\\CsvHelper\\ProjetoCsvHelper.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Douglas\\.nuget\\packages\\csvhelper\\28.0.1\\csvhelper.28.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

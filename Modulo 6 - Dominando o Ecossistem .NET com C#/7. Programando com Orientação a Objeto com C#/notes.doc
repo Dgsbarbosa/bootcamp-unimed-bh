@@ -1,0 +1,194 @@
+Programando com Orientação a Objeto com C#
+
+
+    Conhecendo a programação orienta a objetos (Slide Aula 1)
+
+        Classe é um modelo
+
+        Objeto é a contrução da Classe
+
+
+    Tipos de Paradigmas (Slide Aula 1)
+
+        Fontes: 
+
+        https://en.wikipedia.org/wiki/Comparison_of_multi-paradigm_programming_languages
+
+        https://docs.microsoft.com/pt-br/dotnet/csharp/fundamentals/tutorials/oop
+
+    Pilares dos Paradigmas: Abstração, Encapsulamento, Herança, Polimorfismo
+
+
+Abstração
+
+    Entendendo o que é abstração (Slide Aula 2)
+
+    Pegar o objeto que precisa ser trabalhado e pegar as partes mais importantes dele.
+
+        Abstração na prática
+
+            Foi criada a pasta POO
+
+            Foi criada uma solution ExemploPOO
+
+            Foi criada a pasta ExemploPOO com um projeto dotnet 
+
+            Adicionamos o arquivo de projeto na solution
+
+                dotnet sln add ExemploPOO/ExemploPOO.csproj
+
+            criada uma Classe chamada Pessoa
+                
+                atributos
+
+                    public class Pessoa
+                        {
+                            public string Nome{get; set;}
+
+                            public int Idade{get; set;}
+
+                            public void Apresentar()
+                            {
+                                System.Console.WriteLine($"Olá, meu nome é {Nome} e tenho {Idade}anos, e você?");
+                            }
+                        }
+
+
+            
+    Encapsulamento (Slide Aula 3)
+
+
+        Introdução encapsulamento 
+
+            Tabela de Encapsulamento
+
+                Fonte: https://docs.microsoft.com/pt-br/dotnet/csharp/programming-guide/classes-and-structs/access-modifiers
+
+
+
+        Encapsulamento na prática
+
+            criada a Classe Retangulo em models
+
+    
+    
+    Herança (Slide Aula 4)
+
+        Herança na prática
+
+            criada classe Aluno e Professor em models
+
+            a casse heradará da classe pessoa
+
+
+
+    Polimorfismo (Slide Aula 5)
+
+        Polimorfismo em tempo de execução (Lat Biding)
+
+            public virtual void (Virtual: Informa que o metodo pode ser subscrito)
+
+            public override void (override: signivica sobrescrita)
+
+
+        Polimorfismo tempo de compilação (Early Biding)
+
+            É um sobrecarga de metodos
+
+            criada a classe Calculadora em models
+
+
+
+
+Classes Abstratas (Slide Aula 6)
+
+    Fortemente ligado a Herança
+
+    Pode se criar metodos e classes abstratas
+
+    Classes abstratas na prática 
+
+        Criadas as classes Conta (será abstrata) e corrente em models
+
+
+    Introdução métodos selados (Slide)
+    
+        Não pode sobrescrever um método selado
+        É o ponto final da Herança
+        Os metodos selados são iguais as class seladas
+
+        Metodos selados na prática
+
+            criada classe Diretor
+
+            foi modificada a classe Professor 
+
+
+    Introdução classe object (Slide)
+
+        Classe object na prática
+
+            criada a classe Computador para ver como ela é afetada pela System.object   
+
+            Ao criar uma classe ela herada automaticamento da classe object
+
+Interfaces (Slide Aula 7)
+
+    Introdução a interfaces     
+
+        Slide
+
+    Interfaces na prática
+        criar interface calculadora, definir metodo, implementar
+
+        Como boa pratica se coloca o I na frente 
+            ex.: 
+            ICalculadora
+
+        Por padrao a interface é plblica, nao sendo necessaria a insercao de public ou private
+        
+
+        A interface vai ser implmentada na classe calculadora 
+
+        Assim como a herança ela deve ser chamada
+
+         Ex.:
+
+            public class Calculadora : ICalculadora
+
+        Com o crtl + . (ponto) implemente a interface
+
+Manipulando Arquivos (Slide Aula 8)
+
+    Classes Estaticas
+
+        File
+        Directory
+        Path
+
+    Listar diretórios
+
+        criada a pasta helper 
+
+        criada a classe FileHelper
+
+        criada a pasta Trabalhando com Arquivos em downloads
+        
+    Listar arquivos
+
+        exemplos feitos em FileHelper
+    
+    
+    Criar diretório
+
+         exemplos feitos em FileHelper
+
+    Apagar diretório
+
+        
+
+
+
+
+
+

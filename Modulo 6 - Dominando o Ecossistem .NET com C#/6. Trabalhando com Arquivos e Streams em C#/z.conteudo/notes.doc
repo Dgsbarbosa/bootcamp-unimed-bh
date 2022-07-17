@@ -65,6 +65,101 @@ Trabalhando com Arquivos e Streams em C#
 
     Diretórios
 
-        criado o Diretório DIRECTORY_AND_DERECTORYINFO  
+        criado o Diretório Directory_And_DirectoryInfo, porem ele só funcionou na pasta dowload, creio que o motivo seja porque a pasta salva no drive ficou com o nome bem grande
+        Após as aplicações salvei na pasta do drive porem a aplicação nao funcionanará
+
+        Exercicio
+
+            Criamos um diretorio "globo", onde terão subdiretorios divididos por regioes onde terão arquivos com as informações daqula regiao
+
+            Criando Diretório
+
+                Directory.CreateDirectory();
+
+            Criando subdiretorios
+               
+                CreateSubdirectory("");
+
+    File Move Copy
+    
+        File.Move(pathOrigem,pathDestino);
+
+        Criado o metodo MoverArquivo(string pathOrigem, string pathDestino); que recebe dois parametros
+
+    DirectoryInfo
+
+        feito no mesmo projeto do Directory_And_DirectoryInfo
+        
+
+    FileInfo
+        feito no mesmo projeto do Directory_And_DirectoryInfo
+
+
+File System Watcher
+
+    Demo
+
+    Slide pagina 14
+
+    criada a pasta FileSystemWatcher
+
+    
+Lendo e escrevendo arquivos com Streams
+
+    stringWriterReader - teoria 
+        
+        Slide pagina 19
+
+    
+    stringReader - pratica
+
+        criada a pasta StringReader
+
+    stringWriter - prática
+
+
+Importar dados (slide pagina 27)
+
+    csvStreamReader
+
+        criado o repositorio CsvStream
+        criada pastas Entrada e Saida
+
+    csvStreamWriter
+
+        criada no mesmo arquivo CsvStream
+
+
+    csvHelperRader - dynamic
+
+        nuget.org (repositorio de bibliotecas entrar e procurar pela biblioteca CsvHelper)
 
         
+
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     
+
+
+
+    

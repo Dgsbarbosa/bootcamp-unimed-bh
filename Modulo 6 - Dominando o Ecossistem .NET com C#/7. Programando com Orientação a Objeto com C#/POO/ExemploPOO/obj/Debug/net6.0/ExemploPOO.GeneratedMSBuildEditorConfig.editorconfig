@@ -6,5 +6,5 @@ build_property.ProjectTypeGuids =
 build_property.InvariantGlobalization = 
 build_property.PlatformNeutralAssembly = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
-build_property.RootNamespace = File_And_FileInfo
-build_property.ProjectDir = C:\Users\Douglas\Meu Drive (guinho.cq@gmail.com)\Estudos\Cursos Programaçao\Dio\bootcamps\2.unimed-bh\Modulo 6 - Dominando o Ecossistem .NET com C#\6. Trabalhando com Arquivos e Streams em C#\File_And_FileInfo\
+build_property.RootNamespace = ExemploPOO
+build_property.ProjectDir = C:\Users\Douglas\Meu Drive (guinho.cq@gmail.com)\Estudos\Cursos Programaçao\Dio\bootcamps\2.unimed-bh\Modulo 6 - Dominando o Ecossistem .NET com C#\7. Programando com Orientação a Objeto com C#\POO\ExemploPOO\
