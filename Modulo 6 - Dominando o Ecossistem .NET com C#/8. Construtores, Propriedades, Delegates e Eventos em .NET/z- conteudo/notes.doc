@@ -1,0 +1,193 @@
+Construtores, Propriedades, Delegates e Eventos em .NET
+
+
+    Slides
+
+        https://docs.google.com/presentation/d/1pJJySZkVw3IwhbdXiDaPtOmsixQUzIsV/edit#slide=id.gf203272afe_0_10
+
+    Github
+
+        https://github.com/leonardo-buta/curso-tipos-de-construtores-dio
+
+    
+Construtores
+
+    Introdução Construtores
+
+        slide pagina 6
+
+        criada a pasta Contrutores
+
+
+    Construtor na prática
+
+        atalho para criar um construtor ctor
+
+
+    Construtor padrão
+
+        Construtor que não tem parametros, toda clase tem caso nao tenha declarado na classe.
+
+    Construtor privado
+
+        criada a classe Log em models
+
+        nao podemos instanciar um Construtor privado.
+
+        para instanciar é preciso usar um padrao de projeto chamado  Singleton, que permite apenas uma instancia, sendo o mesmo objeto em todas as classes.
+
+    
+    Chamando o construtor da herança
+
+        criada a classe Aluno em models
+
+        usando a palavra reservada base é possivel herdar uma classe que tenha um construtor, obedecendo os seus parametros
+
+Getters e Setters (slide pg 9)
+
+        Getters = recebe
+
+        Setters = atribui
+
+    Get e Set na prática
+
+        criada a classe Data
+
+    Propriedades
+
+        Forma de unificar o Get e o Set podendo ter validações ou não
+
+        Só digitar prop 
+
+    Estrutura
+
+     public int MyProperty { get; set; }  (quando não necettita de validações)
+
+     public int MyProperty 
+     { 
+        get
+        {
+            return this.variavel
+        }
+        set
+        {
+            validações
+        }
+
+
+Modificadores (slide pg 11)
+
+    Introdução readonly
+
+        readonly (apenas leitura)
+
+        o readonly só pode ser alterado na sua inialização ou no construtor
+
+
+    Readonly na prática
+
+        criada uma nova variavel na classe Pessoa chamada cpf
+
+        private readonly string cpf = "123456777";
+
+
+    Introdução constante
+
+        só pode ser alterada no momento da inicialização
+
+    Constante na prática
+
+        Ex.:
+
+        const double pi = 3,14;
+
+Delegates (slide pg 14)
+
+    Introdução delegate
+
+        Maneira de passar um metodo como referencia
+
+
+    Delegate na prática
+
+        criada a classe Calculadora
+
+
+    Multi Cast Delegate
+
+        extenção do delegate
+
+        que chama diversos metodos
+
+            Ex. 
+
+            Operacao op = new Operacao(Calculadora.Somar);
+
+            Depois é só chamar o outro método
+
+            op += Calculadora.Subtrair;
+
+Eventos
+
+    Introdução eventos (slide pg 16)
+
+        Mecanismo de comunicação entre objetos
+
+        Ex.: Um botão de fechar que ao ser clicado dispara o evento sair 
+
+        Para usar um evento é preciso declarar um delegate
+
+            Ex.:
+
+                Delegate
+
+                public delegate void DelegateCalculadora();
+
+                Evento
+
+                public static event DelegateCalculadora EventoCalculadora;
+
+    Eventos na prática
+
+        criada a classe CalculadoraEvento
+
+        criada a classe matematica 
+
+
+
+
+
+
+
+
+
+
+
+
+
+       
+
+
+
+
+
+
+    
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
