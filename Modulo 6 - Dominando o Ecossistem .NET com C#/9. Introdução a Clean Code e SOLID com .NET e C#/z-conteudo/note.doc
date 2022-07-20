@@ -1,5 +1,38 @@
 Introdução a Clean Code e SOLID com .NET e C#
 
+    Conceitos de Clean Code (Codigo limpo)
+
+        O codigo reflete a regra de negocio
+        Meaningful and Intention revealing Names
+        Funções devem fazer apenas uma coisa.
+
+
+
+    Introdução a S.O.L.I.D
+
+        É um conjunto de pricipios de Design 
+
+        S - Single Responsibility Principle
+        O - Open/Closed Principle
+        L - Lishkov Substitution Principle
+        I - Interface Segregation Principle
+        D - Dependency Inversion Principle
+
+
+        Fontes
+
+        - Robos SOLID medium.com/@ugonnat
+        - Clean Arch - Uncle Bob
+
+
+    
+
+
+
+
+
+
+        
 
 
 
