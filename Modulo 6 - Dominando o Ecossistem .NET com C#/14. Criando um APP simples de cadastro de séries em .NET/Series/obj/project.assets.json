@@ -1,11 +1,11 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {}
+    ".NETCoreApp,Version=v3.1": {}
   },
   "libraries": {},
   "projectFileDependencyGroups": {
-    "net6.0": []
+    ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
     "C:\\Users\\Douglas\\.nuget\\packages\\": {}
@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Douglas\\Meu Drive (guinho.cq@gmail.com)\\Estudos\\Cursos Programaçao\\Dio\\bootcamps\\2.unimed-bh\\Modulo 6 - Dominando o Ecossistem .NET com C#\\14. Criando um APP simples de cadastro de séries em .NET\\Series\\Series.csproj",
-      "projectName": "Series",
-      "projectPath": "C:\\Users\\Douglas\\Meu Drive (guinho.cq@gmail.com)\\Estudos\\Cursos Programaçao\\Dio\\bootcamps\\2.unimed-bh\\Modulo 6 - Dominando o Ecossistem .NET com C#\\14. Criando um APP simples de cadastro de séries em .NET\\Series\\Series.csproj",
+      "projectUniqueName": "C:\\Users\\Douglas\\Meu Drive (guinho.cq@gmail.com)\\Estudos\\Cursos Programaçao\\Dio\\bootcamps\\2.unimed-bh\\Modulo 6 - Dominando o Ecossistem .NET com C#\\14. Criando um APP simples de cadastro de séries em .NET\\Series\\DIO.Series.csproj",
+      "projectName": "DIO.Series",
+      "projectPath": "C:\\Users\\Douglas\\Meu Drive (guinho.cq@gmail.com)\\Estudos\\Cursos Programaçao\\Dio\\bootcamps\\2.unimed-bh\\Modulo 6 - Dominando o Ecossistem .NET com C#\\14. Criando um APP simples de cadastro de séries em .NET\\Series\\DIO.Series.csproj",
       "packagesPath": "C:\\Users\\Douglas\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Douglas\\Meu Drive (guinho.cq@gmail.com)\\Estudos\\Cursos Programaçao\\Dio\\bootcamps\\2.unimed-bh\\Modulo 6 - Dominando o Ecossistem .NET com C#\\14. Criando um APP simples de cadastro de séries em .NET\\Series\\obj\\",
       "projectStyle": "PackageReference",
@@ -23,14 +23,14 @@
         "C:\\Users\\Douglas\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
-        "net6.0"
+        "netcoreapp3.1"
       ],
       "sources": {
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "projectReferences": {}
         }
       },
@@ -41,8 +41,8 @@
       }
     },
     "frameworks": {
-      "net6.0": {
-        "targetAlias": "net6.0",
+      "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
         "imports": [
           "net461",
           "net462",
@@ -53,6 +53,24 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[3.1.10, 3.1.10]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[3.1.27, 3.1.27]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[3.1.0, 3.1.0]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[3.1.0, 3.1.0]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
