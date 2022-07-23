@@ -1,0 +1,69 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Douglas\\Meu Drive (guinho.cq@gmail.com)\\Estudos\\Cursos Programaçao\\Dio\\bootcamps\\2.unimed-bh\\Modulo 6 - Dominando o Ecossistem .NET com C#\\12. Desenvolvimento de aplicações com .NET\\CursoApi\\CursoApi.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Douglas\\Meu Drive (guinho.cq@gmail.com)\\Estudos\\Cursos Programaçao\\Dio\\bootcamps\\2.unimed-bh\\Modulo 6 - Dominando o Ecossistem .NET com C#\\12. Desenvolvimento de aplicações com .NET\\CursoApi\\CursoApi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Douglas\\Meu Drive (guinho.cq@gmail.com)\\Estudos\\Cursos Programaçao\\Dio\\bootcamps\\2.unimed-bh\\Modulo 6 - Dominando o Ecossistem .NET com C#\\12. Desenvolvimento de aplicações com .NET\\CursoApi\\CursoApi.csproj",
+        "projectName": "CursoApi",
+        "projectPath": "C:\\Users\\Douglas\\Meu Drive (guinho.cq@gmail.com)\\Estudos\\Cursos Programaçao\\Dio\\bootcamps\\2.unimed-bh\\Modulo 6 - Dominando o Ecossistem .NET com C#\\12. Desenvolvimento de aplicações com .NET\\CursoApi\\CursoApi.csproj",
+        "packagesPath": "C:\\Users\\Douglas\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Douglas\\Meu Drive (guinho.cq@gmail.com)\\Estudos\\Cursos Programaçao\\Dio\\bootcamps\\2.unimed-bh\\Modulo 6 - Dominando o Ecossistem .NET com C#\\12. Desenvolvimento de aplicações com .NET\\CursoApi\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Douglas\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

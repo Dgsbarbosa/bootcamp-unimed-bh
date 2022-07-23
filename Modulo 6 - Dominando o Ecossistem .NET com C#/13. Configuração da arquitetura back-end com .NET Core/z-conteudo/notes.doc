@@ -1,0 +1,46 @@
+Configuração da arquitetura back-end com .NET Core
+
+
+    Introdução e setup da API
+
+    
+    Conheça o Postman
+
+        Ferramenta de teste para API
+
+    
+    Introdução e biblioteca Swashbuckle.AspNetCore.Annotations
+
+        Instala o pacote do Swager
+
+        Instala a biblioteca do Swager o Swashbuckle.AspNetCore.Annotations
+
+            auxilia na formação dos status code
+
+        
+        Usando ConfigureApiBehaviorOptions
+
+            desabilita o modo state invalid
+
+            Recuso Filtros = intercepta os 
+
+
+Protegendo nossa API               
+
+    Configuração com 'provider' JWT
+
+
+Setup da API Camada de Persistencia
+
+    Modelando as entidades de banco de dados
+
+
+Design Pattern
+
+    O que é IOC e DI Pattern - Refatoração
+
+        IOC = inversao de controle
+
+        Repository Pattern
+
+        

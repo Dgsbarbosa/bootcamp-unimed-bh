@@ -1,0 +1,126 @@
+Desenvolvimento de aplicações com .NET
+
+
+    O que é Entity Framework
+
+        è um framework ORm
+
+        Database First
+
+        Model First
+
+        Code First
+
+Data Annotation
+
+    Principais Atributos
+
+        Required
+
+        RegularExpression
+
+        Display
+
+        StringLength
+
+        MinLength
+
+        DisplayFormat
+
+        Range
+
+Migrations
+
+    CreateDataBasIfNotExists
+
+    DropCreatDataBaseAlways
+
+    DropCreatDataBaseModelChanges
+
+
+Introdução ao ASP .NET MVC
+
+    Padrao MVC - Model View Controller
+
+    Asp .Net MVC
+    
+  
+  
+HTTP Verbs
+
+    Get
+    Post
+    Put/
+    Delete
+
+Middlewares
+
+    Sao componentes(classes)
+
+
+Startup
+
+    ConfigureServices
+
+    Configure 
+
+    
+
+Criando a primeira aplicação ASP .NET
+
+    https://docs.microsoft.com/pt-br/aspnet/core/tutorials/first-mvc-app/start-mvc?view=aspnetcore-6.0&tabs=visual-studio-code
+
+    rodar aplicação
+
+        ctrl + F5
+
+        Baixando o pacote Entity Framework
+
+            dotnet add package Microsoft.EntityFrameworkCore.SqlServer
+
+        Baixando as ferramentas Entity Framework
+
+            dotnet add package Microsoft.EntityFrameworkCore.Tools
+
+        Crie a Classe Context 
+
+            using System;
+            using System.Collections.Generic;
+            using System.Linq;
+            using System.Threading.Tasks;
+            using Microsoft.EntityFrameworkCore;
+
+            namespace CursoMvc.Models
+            {
+                public class Context : DbContext
+                {
+                    protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+                    {
+                        optionsBuilder.UseSqlServer(@"Server=(localdb)\mssqllocaldb;Database=Cursomvc; Integrad Security=True");
+                    }
+                }
+            }
+
+        a criação não deu certo, não foi encontrado o arquivo Startup, a aula foi feita no visual studio, e tenho apenas  o visual studio coude, creio que isso deu erro 
+
+
+Criando e testando uma Aplicação Asp.Net Api e publicando na Cloud 
+
+    Aprendendo o conceito básico de API
+
+        API = Interfadce de programação de aplicações
+
+        Rest = É um conjunto de principios 
+
+        Swagger = projeto composto por ferramentas para auxiliar o desenvolvedor de API
+
+
+Criando um app web ASP .NET MVC - Passo 1
+
+    Criado o projeto API CursoApi
+
+    O projeto nao veio com Startup
+
+Criando um app web ASP .NET MVC - Passo 2
+
+    
